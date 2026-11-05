@@ -1,0 +1,68 @@
+{
+ "site": "forensic",
+ "version": "1.0.0",
+ "updated": "2026-11-01",
+ "note": "Interface strings only. Assessment text stays in English, the authoritative record; Welsh and Spanish translation pending.",
+ "strings": {
+  "Forensic Assessments": {
+   "cy": "Asesiadau Fforensig",
+   "es": "Evaluaciones forenses"
+  },
+  "Since last assessment": {
+   "cy": "Ers yr asesiad diwethaf",
+   "es": "Desde la última evaluación"
+  },
+  "The assessment as last published": {
+   "cy": "Yr asesiad fel y’i cyhoeddwyd ddiwethaf",
+   "es": "La evaluación tal como se publicó por última vez"
+  },
+  "Response status": {
+   "cy": "Statws ymateb",
+   "es": "Estado de respuesta"
+  },
+  "Last contact": {
+   "cy": "Cyswllt diwethaf",
+   "es": "Último contacto"
+  },
+  "Next date on file": {
+   "cy": "Dyddiad nesaf ar gofnod",
+   "es": "Próxima fecha registrada"
+  },
+  "Earlier version": {
+   "cy": "Fersiwn gynharach",
+   "es": "Versión anterior"
+  },
+  "Our reading": {
+   "cy": "Ein darlleniad",
+   "es": "Nuestra lectura"
+  },
+  "Sent": {
+   "cy": "Anfonwyd",
+   "es": "Enviado"
+  },
+  "Received": {
+   "cy": "Derbyniwyd",
+   "es": "Recibido"
+  },
+  "Institutions": {
+   "cy": "Sefydliadau",
+   "es": "Instituciones"
+  },
+  "Filter institutions": {
+   "cy": "Hidlo sefydliadau",
+   "es": "Filtrar instituciones"
+  },
+  "All assessments": {
+   "cy": "Pob asesiad",
+   "es": "Todas las evaluaciones"
+  },
+  "Not yet assessed": {
+   "cy": "Heb ei asesu eto",
+   "es": "Aún sin evaluar"
+  },
+  "Translation pending: the assessment text below is in English, the authoritative record.": {
+   "cy": "Cyfieithiad i ddod: mae testun yr asesiad isod yn Saesneg, y cofnod awdurdodol.",
+   "es": "Traducción pendiente: el texto de la evaluación está en inglés, el registro de referencia."
+  }
+ }
+}
