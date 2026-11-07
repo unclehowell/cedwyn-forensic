@@ -1,0 +1,2965 @@
+{
+ "source": "https://cedwyn.bucklerfamily.estate/api/catalogue",
+ "note": "The Forensic Assessments webapp's own data store: for each institution in data.json, the central-catalogue records whose title or holder names it. Derived and read-only; never edit by hand (tools/sync_central.py rewrites it).",
+ "fields": [
+  "id",
+  "kind",
+  "title",
+  "date_display",
+  "date_sort",
+  "status",
+  "holder",
+  "page"
+ ],
+ "match": "institution name (also the name before any bracket, and each part either side of a slash or dash) found in the record title or holder",
+ "synced_utc": "2026-11-07T20:08:29Z",
+ "count": 250,
+ "institutions": {
+  "vale-of-glamorgan-council": {
+   "name": "Vale of Glamorgan Council",
+   "count": 1,
+   "records": [
+    {
+     "id": "MR-0032",
+     "kind": "missing_record",
+     "title": "Valuation report on the land (Vale of Glamorgan Council request 00211027)",
+     "date_display": "not stated",
+     "date_sort": "not stated",
+     "status": "NOT FOUND",
+     "holder": "Vale of Glamorgan Council",
+     "page": "/research/missing-records/#mr-0032"
+    }
+   ]
+  },
+  "western-ground-rents": {
+   "name": "Western Ground Rents Ltd",
+   "count": 7,
+   "records": [
+    {
+     "id": "EV-0790",
+     "kind": "evidence",
+     "title": "Welsh Government ATISN 26-0010 disclosure letter (19 Oct 2026): retention and destruction schedules; no files found under the farm name, Western Ground Rents Ltd or BP Properties",
+     "date_display": "19 Oct 2026",
+     "date_sort": "2026-10-19",
+     "status": "HELD (copy; attachment read)",
+     "holder": "Welsh Government / Cadw, reply attachment (ATISN 26-0010)",
+     "page": null
+    },
+    {
+     "id": "EV-0686",
+     "kind": "evidence",
+     "title": "Board of Trade Journal, 7 March 1969, p.668: the Board of Trade will not refer the proposed merger of British Petroleum Co. Ltd. and Western Ground Rents Ltd. to the Monopolies Commission",
+     "date_display": "7 March 1969",
+     "date_sort": "1969-03-07",
+     "status": "HELD (public printed copy)",
+     "holder": "Board of Trade Journal, vol. 196, no. 3755 (HMSO); public scan at the Internet Archive",
+     "page": null
+    },
+    {
+     "id": "EV-0685",
+     "kind": "evidence",
+     "title": "Board of Trade Journal, 6 December 1968, p.1522: the Board of Trade will not refer the proposed merger of Amalgamated Investment and Property Co. Ltd. and Western Ground Rents Ltd. to the Monopolies Commission",
+     "date_display": "6 December 1968",
+     "date_sort": "1968-12-06",
+     "status": "HELD (public printed copy)",
+     "holder": "Board of Trade Journal, vol. 195, no. 3742 (HMSO); public scan at the Internet Archive",
+     "page": null
+    },
+    {
+     "id": "EV-0701",
+     "kind": "evidence",
+     "title": "TNA BT 31/87651: Western Ground Rents Ltd (Company No. 00342092), company file volume, 1938-1982, orderable at item level",
+     "date_display": "1938-1982",
+     "date_sort": "1938-01-01",
+     "status": "HELD (catalogue only)",
+     "holder": "The National Archives, Kew, BT 31/87651 (Discovery C18015071)",
+     "page": null
+    },
+    {
+     "id": "EV-0700",
+     "kind": "evidence",
+     "title": "TNA BT 31/84793: Western Ground Rents Ltd (Company No. 00342092), company file, incorporated 1938, dissolved 1997",
+     "date_display": "1938-1997",
+     "date_sort": "1938-01-01",
+     "status": "HELD (catalogue only)",
+     "holder": "The National Archives, Kew, BT 31/84793 (Discovery C18012213)",
+     "page": null
+    },
+    {
+     "id": "EV-0019",
+     "kind": "evidence",
+     "title": "Bute Estate to Western Ground Rents Ltd conveyance of reversion, with plan",
+     "date_display": "1938",
+     "date_sort": "1938-00-00",
+     "status": "PENDING",
+     "holder": "Not yet disclosed by the bodies that should hold it: Vale of Glamorgan Council deed wallet 1756 (2 of at least 10 documents disclosed, FOI 00211027); no copy found in the catalogued Bute papers at Glamorgan Archives; HM Land Registry titles WA3996 and WA7355 not yet copied",
+     "page": "/research/evidence/ev-0019-bute-wgr-conveyance-plan-1938/"
+    },
+    {
+     "id": "MR-0005",
+     "kind": "missing_record",
+     "title": "Conveyance on sale of 25 December 1938 (Mountjoy / Bute to Western Ground Rents Ltd), with plan and land schedules",
+     "date_display": "1938-12-25",
+     "date_sort": "1938",
+     "status": "NOT FOUND",
+     "holder": "BP Properties Ltd / successors (deeds packet); HM Land Registry first-registration files WA231076 and WA240304; Companies House / The National Archives (WGR file BT 31/87651)",
+     "page": "/research/missing-records/#mr-0005"
+    }
+   ]
+  },
+  "south-wales-police": {
+   "name": "South Wales Police",
+   "count": 8,
+   "records": [
+    {
+     "id": "EV-0812",
+     "kind": "evidence",
+     "title": "South Wales Police internal review 1188/26 outcome letter (6 Nov 2026): original position upheld, no information held",
+     "date_display": "6 Nov 2026",
+     "date_sort": "2026-11-06",
+     "status": "HELD IN GMAIL, NOT YET EXTRACTED",
+     "holder": "South Wales Police, reply attachment (1188/26)",
+     "page": null
+    },
+    {
+     "id": "EV-0802",
+     "kind": "evidence",
+     "title": "South Wales Police SAR 1293/26 response, password-protected PDF portfolio (4 Nov 2026)",
+     "date_display": "4 Nov 2026",
+     "date_sort": "2026-11-04",
+     "status": "LOCKED, PASSWORD NOT SUPPLIED (subject-access material; held privately)",
+     "holder": "South Wales Police, reply attachment (SAR 1293/26)",
+     "page": null
+    },
+    {
+     "id": "EV-0794",
+     "kind": "evidence",
+     "title": "South Wales Police response to request 1189/26 (21 Oct 2026): sets out the FOIA s.8 tests for a valid request; no information provided",
+     "date_display": "21 Oct 2026",
+     "date_sort": "2026-10-21",
+     "status": "HELD (copy; attachment read)",
+     "holder": "South Wales Police, reply attachment (1189/26)",
+     "page": null
+    },
+    {
+     "id": "EV-0783",
+     "kind": "evidence",
+     "title": "South Wales Police complaints and internal review procedure leaflet (461,447-byte edition), attached to the 1040/26 reply (29 Sep 2026), the 1189/26 reply (21 Oct 2026) and the 1188/26 review (6 Nov 2026)",
+     "date_display": "29 Sep 2026 to 6 Nov 2026 (3 copies)",
+     "date_sort": "2026-09-29",
+     "status": "HELD (copy; attachment read)",
+     "holder": "South Wales Police, reply attachment",
+     "page": null
+    },
+    {
+     "id": "EV-0186",
+     "kind": "evidence",
+     "title": "South Wales Police FOI response 1040/26 (29 Sep 2026)",
+     "date_display": "29 September 2026",
+     "date_sort": "2026-09-29",
+     "status": "HELD",
+     "holder": "South Wales Police (author), FOI reference 1040/26; Uploaded source copy in the Cedwyn evidence repository; Wiki catalogue reference GHF-E106-R39-A1",
+     "page": null
+    },
+    {
+     "id": "EV-0758",
+     "kind": "evidence",
+     "title": "South Wales Police complaints and internal review procedure leaflet (197,535-byte edition), attached to the 719/26 reply (16 Jul 2026) and the 1188/26 reply (26 Oct 2026)",
+     "date_display": "16 Jul 2026 to 26 Oct 2026 (2 copies)",
+     "date_sort": "2026-07-16",
+     "status": "HELD (copy; attachment read)",
+     "holder": "South Wales Police, reply attachment",
+     "page": null
+    },
+    {
+     "id": "EV-0159",
+     "kind": "evidence",
+     "title": "South Wales Police response to FOI request 719/26",
+     "date_display": "16 July 2026",
+     "date_sort": "2026-07-16",
+     "status": "HELD",
+     "holder": "Copy held in the Cedwyn evidence repository; Issued by South Wales Police, FOI reference 719/26",
+     "page": null
+    },
+    {
+     "id": "MR-0071",
+     "kind": "missing_record",
+     "title": "South Wales Police internal review 1188/26 (of FOI 719/26): outcome document",
+     "date_display": "26 October 2026",
+     "date_sort": "2026",
+     "status": "SOUGHT",
+     "holder": "South Wales Police (Information Compliance)",
+     "page": "/catalogue/?id=MR-0071"
+    }
+   ]
+  },
+  "mountjoy-ltd": {
+   "name": "Mountjoy Ltd",
+   "count": 0,
+   "records": []
+  },
+  "national-library-of-wales": {
+   "name": "National Library of Wales",
+   "count": 6,
+   "records": [
+    {
+     "id": "EV-0719",
+     "kind": "evidence",
+     "title": "National Library of Wales response to FOI/2026/16 (1610 Herbert survey S7; Bute X.6(12) and the Cardiff MSS microfilm), dated 4 November 2026: information “reasonably accessible” under section 21",
+     "date_display": "4 November 2026 (request received 16 October 2026; sent 5 November 2026)",
+     "date_sort": "2026-11-04",
+     "status": "HELD (correspondence)",
+     "holder": "National Library of Wales, Director of Collections, response to FOI/2026/16 dated 4 November 2026, sent through the Library’s enquiry service 5 November 2026 00:02 UTC, project mailbox",
+     "page": null
+    },
+    {
+     "id": "EV-0294",
+     "kind": "evidence",
+     "title": "Welsh Women’s Peace Petition 1923–24: the Llandough sheet (National Library of Wales, box 1, petition 92, page 1)",
+     "date_display": "1923–24",
+     "date_sort": "1923-00-00",
+     "status": "HELD (copy)",
+     "holder": "National Library of Wales, Welsh Women’s Peace Petition, box 1, petition 92, page 1 (community ward Llandough)",
+     "page": null
+    },
+    {
+     "id": "EV-0655",
+     "kind": "evidence",
+     "title": "National Library of Wales LL/1853/98: probate papers of John Williams, Farmer, Llandough-juxta-Penarth (1853)",
+     "date_display": "1853",
+     "date_sort": "1853-01-01",
+     "status": "HELD (catalogue only)",
+     "holder": "National Library of Wales, Llandaff diocesan probate records, LL/1853/98 (catalogued on TNA Discovery, record 108afb0d-5e8b-4433-a5b7-c446823665cf)",
+     "page": null
+    },
+    {
+     "id": "EV-0651",
+     "kind": "evidence",
+     "title": "National Library of Wales, Llandaff probate records for Llandough-juxta-Penarth testators, 1679-1809 (including William/Williams entries)",
+     "date_display": "1679-1809",
+     "date_sort": "1679-01-01",
+     "status": "HELD (catalogue only)",
+     "holder": "National Library of Wales, Llandaff diocesan probate records (LL series), catalogued on TNA Discovery",
+     "page": null
+    },
+    {
+     "id": "EV-0668",
+     "kind": "evidence",
+     "title": "National Library of Wales, Bute estate records: further manorial records for the manor of Llandough, 1610-1857 (S 7, M 17/55-80, M 17/317-27, M 1/716, M 1/171, S 29, A 2/5, 9)",
+     "date_display": "1610-1857",
+     "date_sort": "1610-01-01",
+     "status": "HELD (catalogue only)",
+     "holder": "National Library of Wales, Bute estate records (NRA 581 Stuart), Manorial Documents Register entries via TNA Discovery",
+     "page": null
+    },
+    {
+     "id": "EV-0669",
+     "kind": "evidence",
+     "title": "National Library of Wales, Bute estate records: manorial rentals and court papers for the manor of Leckwith, 1590-1816 (M 17/36, M 1/164-165, S 11-13, S 20, M 17/41-54, R 6/27)",
+     "date_display": "1590-1816",
+     "date_sort": "1590-01-01",
+     "status": "HELD (catalogue only)",
+     "holder": "National Library of Wales, Bute estate records (NRA 581 Stuart), Manorial Documents Register entries via TNA Discovery; also Glamorgan Archives D/D B M/3 court book (1884-1937)",
+     "page": null
+    }
+   ]
+  },
+  "glamorgan-archives": {
+   "name": "Glamorgan Archives",
+   "count": 18,
+   "records": [
+    {
+     "id": "EV-0188",
+     "kind": "evidence",
+     "title": "Glamorgan Archives Catalogue Entry for Item Bute 10",
+     "date_display": "30 September 2026",
+     "date_sort": "2026-09-30",
+     "status": "HELD",
+     "holder": "Glamorgan Archives, catalogue item Bute 10; Wiki copy held in the Cedwyn evidence repository, reference GHF-E106-R24-A3.",
+     "page": null
+    },
+    {
+     "id": "EV-0767",
+     "kind": "evidence",
+     "title": "Glamorgan Archives zip of 41 Bute catalogue documents (Word files), attached to the reply of 7 Sep 2026",
+     "date_display": "7 Sep 2026",
+     "date_sort": "2026-09-07",
+     "status": "HELD (copy; attachment read)",
+     "holder": "Glamorgan Archives, reply attachment",
+     "page": null
+    },
+    {
+     "id": "EV-0172",
+     "kind": "evidence",
+     "title": "Glamorgan Archives digital photography order form",
+     "date_display": "7 September 2026",
+     "date_sort": "2026-09-07",
+     "status": "HELD",
+     "holder": "The Cedwyn evidence repository (uploaded attachment); Form relates to Glamorgan Archives; Wiki catalogue reference GHF-E106-R24-A1",
+     "page": null
+    },
+    {
+     "id": "EV-0155",
+     "kind": "evidence",
+     "title": "Glamorgan Archives email reporting catalogue references and a planning-record gap",
+     "date_display": "11 June 2026",
+     "date_sort": "2026-06-11",
+     "status": "HELD",
+     "holder": "Email from Glamorgan Archives, 11 June 2026. References: DXJF/64/30 (Corbett Family papers); DSA/6/1158 (Stephenson & Alexander sale particulars, 15 November 1938); D696 (Western Ground Rents Ltd, three volumes, c. 1938–1944).",
+     "page": null
+    },
+    {
+     "id": "EV-0748",
+     "kind": "evidence",
+     "title": "HM Courts and Tribunals Service internal review 260226049 outcome letter (26 Mar 2026): original decision maintained; records selected for preservation would go to Glamorgan Archives",
+     "date_display": "26 Mar 2026",
+     "date_sort": "2026-03-26",
+     "status": "HELD (copy; attachment read)",
+     "holder": "HM Courts and Tribunals Service, reply attachment (IR 260226049)",
+     "page": null
+    },
+    {
+     "id": "EV-0091",
+     "kind": "evidence",
+     "title": "Glamorgan Archives DCVG: Vale planning committee minutes and reports 1988–89",
+     "date_display": "May 1988 – April 1989",
+     "date_sort": "1988-05-00",
+     "status": "PENDING",
+     "holder": "Glamorgan Archives DCVG/C/4/36/3 (minutes May 1988–Apr 1989), DCVG/C/4/36/65–69 (reports/agendas), DCVG/C/1/32–33 (Chief Executive committee, Jun 1988–Feb 1989)",
+     "page": null
+    },
+    {
+     "id": "EV-0649",
+     "kind": "evidence",
+     "title": "Llandough Women's Institute scrapbook 'Fifty Years of Farming or Land Use in your Locality, 1937-1987' (Glamorgan Archives DXNO16/2)",
+     "date_display": "1987 (project for European Year of the Environment; covers 1937-1987)",
+     "date_sort": "1987-01-01",
+     "status": "HELD (catalogue only; cover and one page online)",
+     "holder": "Glamorgan Archives, DXNO16/2; cover and one page at People's Collection Wales 723486 and 723501",
+     "page": null
+    },
+    {
+     "id": "EV-0712",
+     "kind": "evidence",
+     "title": "Glamorgan Archives P35/11-29: Llandough-juxta-Penarth Community Council minutes, 1982-2000",
+     "date_display": "1982-2000",
+     "date_sort": "1982-01-01",
+     "status": "HELD (catalogue only)",
+     "holder": "Glamorgan Archives, P35/11-29 (TNA Discovery N13886486)",
+     "page": null
+    },
+    {
+     "id": "EV-0682",
+     "kind": "evidence",
+     "title": "Glamorgan Archives CVG/EC/3/1/3/13: photographs of sites in sector 7 of the Penarth survey (c.1975), including 'Tymawr Farm, Llandough'",
+     "date_display": "c.1975",
+     "date_sort": "1975-01-01",
+     "status": "HELD (catalogue only)",
+     "holder": "Glamorgan Archives, CVG/EC/3/1/3/13 (1 bundle)",
+     "page": null
+    },
+    {
+     "id": "EV-0030",
+     "kind": "evidence",
+     "title": "Glamorgan Archives ACA: Cardiff County Court registers (1953 arrears, 1962 possession, 1963 committal)",
+     "date_display": "1953–1975",
+     "date_sort": "1953-00-00",
+     "status": "PENDING",
+     "holder": "Glamorgan Archives ACA/1/1, /25, /26 (1953), ACA/1/31–33 (1962; Book 6 missing), ACA/1/11 (June 1963), ACA/1/17, /18, /41 (1975), ACA/8/2.",
+     "page": "/research/evidence/ev-0030-cardiff-county-court-registers-aca/"
+    },
+    {
+     "id": "EV-0029",
+     "kind": "evidence",
+     "title": "Glamorgan Archives DCVG/C/7/9–10: local land charges registers (Llandough)",
+     "date_display": "1952–1990s",
+     "date_sort": "1952-00-00",
+     "status": "PENDING",
+     "holder": "Glamorgan Archives DCVG/C/7/9 (1952–65, Part IV, Llandough) and DCVG/C/7/10 (index by property, 1960s–1990s).",
+     "page": null
+    },
+    {
+     "id": "EV-0027",
+     "kind": "evidence",
+     "title": "Glamorgan Archives DB/M/22: Bute manor disposals 1950–57",
+     "date_display": "1950–1957",
+     "date_sort": "1950-00-00",
+     "status": "PENDING",
+     "holder": "Glamorgan Archives DB/M/22.",
+     "page": null
+    },
+    {
+     "id": "EV-0024",
+     "kind": "evidence",
+     "title": "Glamorgan Archives D1777/1: post-1938 Bute/Mountjoy estate-office maps",
+     "date_display": "c. 1938–1950s",
+     "date_sort": "1942-00-00",
+     "status": "PENDING",
+     "holder": "Glamorgan Archives D1777/1/1–34.",
+     "page": null
+    },
+    {
+     "id": "EV-0017",
+     "kind": "evidence",
+     "title": "Glamorgan Archives DSA/12/5400: Llandough Farm (Ely Tidal Harbour), J. M. Williams — a different farm",
+     "date_display": "1931–1938",
+     "date_sort": "1931-00-00",
+     "status": "PENDING",
+     "holder": "Glamorgan Archives DSA/12/5400.",
+     "page": null
+    },
+    {
+     "id": "EV-0728",
+     "kind": "evidence",
+     "title": "Glamorgan Archives DSA/12/4232 (Stephenson & Alexander clients' files): 'Piece of land at Llandough opposite O.S. 60', sale, Lord Bute to Miss O.S. Corbett, correspondence 6–22 March 1924",
+     "date_display": "6–22 March 1924",
+     "date_sort": "1924-03-06",
+     "status": "PENDING (file not seen)",
+     "holder": "Glamorgan Archives, DSA/12/4232 (Stephenson & Alexander, Auctioneers and Chartered Surveyors, records: clients' files)",
+     "page": null
+    },
+    {
+     "id": "EV-0683",
+     "kind": "evidence",
+     "title": "Glamorgan Archives DBDT/123 'Llandough' (Debenham Tewson, Bute Estate collection): 13 item titles, 1901-1963, none naming Great House Farm or Tŷ Mawr",
+     "date_display": "1901-1963",
+     "date_sort": "1901-04-01",
+     "status": "HELD (catalogue only)",
+     "holder": "Glamorgan Archives, fonds DBDT (Debenham Tewson, solicitors, Cardiff, Bute Estate collection), series DBDT/123",
+     "page": null
+    },
+    {
+     "id": "EV-0674",
+     "kind": "evidence",
+     "title": "Llandough school paper trail 1864-1956: enrolled trust deed C 54/16303/3 (1864), Board of Education files ED 21/22464 and later, and the Llandough-juxta-Penarth and Cogan School Board minutes (Glamorgan Archives ESB23, 1882-1901)",
+     "date_display": "1864-1956",
+     "date_sort": "1864-01-01",
+     "status": "HELD (catalogue only)",
+     "holder": "The National Archives, Kew: C 54/16303/3, ED 21/22464, ED 49/10033, ED 21/66704, ED 216/265, ED 103/125/13; Glamorgan Archives ESB23",
+     "page": null
+    },
+    {
+     "id": "EV-0663",
+     "kind": "evidence",
+     "title": "Llandough parish registers at Glamorgan Archives: P46CW Penarth and Llandough (1813-2016) and P35CW St Dochdwy Llandough with Leckwith (1928-2010)",
+     "date_display": "1813-2016",
+     "date_sort": "1813-01-01",
+     "status": "HELD (catalogue only)",
+     "holder": "Glamorgan Archives, P46CW and P35CW (catalogue rows on TNA Discovery)",
+     "page": null
+    }
+   ]
+  },
+  "llandough-community-council": {
+   "name": "Llandough Community Council",
+   "count": 12,
+   "records": [
+    {
+     "id": "EV-0788",
+     "kind": "evidence",
+     "title": "Llandough Community Council agenda for the meeting of 22 October 2026, attached to the replies of 13 and 14 Oct 2026",
+     "date_display": "13 Oct 2026 to 14 Oct 2026 (2 copies)",
+     "date_sort": "2026-10-13",
+     "status": "HELD (copy; attachment read)",
+     "holder": "Llandough Community Council, reply attachment",
+     "page": null
+    },
+    {
+     "id": "EV-0193",
+     "kind": "evidence",
+     "title": "Llandough Community Council FOI section 12 cost-limit refusal of 21 September 2026 request",
+     "date_display": "11 October 2026",
+     "date_sort": "2026-10-11",
+     "status": "PENDING",
+     "holder": "Llandough Community Council (sender: Paul R. Egan, Clerk). No reference numbers given.",
+     "page": null
+    },
+    {
+     "id": "EV-0181",
+     "kind": "evidence",
+     "title": "Llandough Community Council reply passing Mr Buckler's 21 September email to the clerk",
+     "date_display": "28 September 2026",
+     "date_sort": "2026-09-28",
+     "status": "PENDING",
+     "holder": "Llandough Community Council (sender: Dr Mo Misra, Chair); Recipient Mr Buckler. No reference numbers given.",
+     "page": null
+    },
+    {
+     "id": "EV-0177",
+     "kind": "evidence",
+     "title": "Llandough Community Council FOI/EIR Request and Section 12 Refusal",
+     "date_display": "21 September–11 October 2026",
+     "date_sort": "2026-09-21",
+     "status": "PENDING",
+     "holder": "Llandough Community Council (correspondence); Sources R53, R54, R55 and Reply register",
+     "page": null
+    },
+    {
+     "id": "EV-0176",
+     "kind": "evidence",
+     "title": "Llandough Community Council reply of 20 September 2026 (quoted in 28 September email)",
+     "date_display": "20 September 2026",
+     "date_sort": "2026-09-20",
+     "status": "PENDING",
+     "holder": "Llandough Community Council (originator); Wording survives only as quoted in the Council's 28 September email (GHF-E106-R54).",
+     "page": null
+    },
+    {
+     "id": "EV-0157",
+     "kind": "evidence",
+     "title": "Llandough Community Council (Clerk Paul Egan) correspondence thread, June–October 2026",
+     "date_display": "14 June – 14 October 2026",
+     "date_sort": "2026-06-14",
+     "status": "HELD",
+     "holder": "Email; Scrollable thread published on family Wayback site (GHF-E106-R54, R55); Some entries transcriptions, not original .eml files.",
+     "page": null
+    },
+    {
+     "id": "MR-0073",
+     "kind": "missing_record",
+     "title": "Llandough Community Council: record of the decision to hold the 22 October 2026 meeting remotely",
+     "date_display": "October 2026",
+     "date_sort": "2026",
+     "status": "SOUGHT",
+     "holder": "Llandough Community Council (clerk)",
+     "page": "/catalogue/?id=MR-0073"
+    },
+    {
+     "id": "MR-0072",
+     "kind": "missing_record",
+     "title": "Llandough Community Council: original and revised agendas for the meeting of 22 October 2026, with publication dates",
+     "date_display": "October 2026",
+     "date_sort": "2026",
+     "status": "SOUGHT",
+     "holder": "Llandough Community Council (clerk; council website)",
+     "page": "/catalogue/?id=MR-0072"
+    },
+    {
+     "id": "EV-0711",
+     "kind": "evidence",
+     "title": "Llandough Community Council, Annual Meeting 8 May 2024, item 8 (deeds and trust instruments / fixed asset register): Village Green No. 41 documented by a “Common Commissioners Letter in Clerk’s File”; the extended village-green parcel by title deeds",
+     "date_display": "8 May 2024",
+     "date_sort": "2024-05-08",
+     "status": "HELD (public online copy)",
+     "holder": "Llandough Community Council, minutes of the Annual Meeting held 8 May 2024 (182482-AnnMin2024.pdf), item 8",
+     "page": null
+    },
+    {
+     "id": "EV-0214",
+     "kind": "evidence",
+     "title": "Llandough Community Council minutes, 1987: Great House Farm right of way, VG41, BP’s agents",
+     "date_display": "1987",
+     "date_sort": "1987-00-00",
+     "status": "HELD",
+     "holder": "Glamorgan Archives (Leckwith photos 2026); reference pending",
+     "page": null
+    },
+    {
+     "id": "MR-0074",
+     "kind": "missing_record",
+     "title": "Llandough Community Council records about Tŷ Mawr / Great House Farm beyond the minute books deposited in 2002",
+     "date_display": "1974–2026",
+     "date_sort": "1974",
+     "status": "SOUGHT",
+     "holder": "Llandough Community Council",
+     "page": "/catalogue/?id=MR-0074"
+    },
+    {
+     "id": "EV-0647",
+     "kind": "evidence",
+     "title": "St Dochdwy’s Church, Llandough: Llandough Community Council buildings note (church in use until 1820; its successor moved to Leckwith as St James’; present church consecrated July 1866)",
+     "date_display": "1820 – July 1866 (church history; note undated)",
+     "date_sort": "1820-00-00",
+     "status": "HELD-ONLINE",
+     "holder": "Llandough Community Council website, Buildings: 'St Dochdwy's Church' (PDF)",
+     "page": null
+    }
+   ]
+  },
+  "national-archives": {
+   "name": "The National Archives",
+   "count": 11,
+   "records": [
+    {
+     "id": "EV-0722",
+     "kind": "evidence",
+     "title": "Companies House Archive Searches reply, 3 November 2026: Mountjoy Limited (00179977) records “were not sent to the National Archives”; paper records and microfiche destroyed",
+     "date_display": "3 November 2026",
+     "date_sort": "2026-11-03",
+     "status": "HELD (correspondence)",
+     "holder": "Companies House, Archive Searches, email of 3 November 2026 10:34 (our ref: Mountjoy Limited), quoted in full in a reply of the same day; project mailbox",
+     "page": null
+    },
+    {
+     "id": "EV-0710",
+     "kind": "evidence",
+     "title": "Companies House Archive Searches reply, 3 November 2026: Western Ground Rents Limited (00342092) records “were not sent to the National Archives”; paper records and microfiche destroyed",
+     "date_display": "3 November 2026",
+     "date_sort": "2026-11-03",
+     "status": "HELD (correspondence)",
+     "holder": "Companies House, Archive Searches, email of 3 November 2026 10:27 UTC (our ref: Western Ground Rents Limited)",
+     "page": null
+    },
+    {
+     "id": "EV-0782",
+     "kind": "evidence",
+     "title": "The National Archives FOI CAS-347296: release schedule \"on Discovery\" (redacted CSV), attached to the replies of 23 Sep and 1 Oct 2026",
+     "date_display": "23 Sep 2026 to 1 Oct 2026 (2 copies)",
+     "date_sort": "2026-09-23",
+     "status": "HELD (copy; attachment read)",
+     "holder": "The National Archives, reply attachment (CAS-347296)",
+     "page": null
+    },
+    {
+     "id": "EV-0781",
+     "kind": "evidence",
+     "title": "The National Archives FOI CAS-347296: high-level delivery schedule (CSV), attached to the replies of 23 Sep and 1 Oct 2026",
+     "date_display": "23 Sep 2026 to 1 Oct 2026 (2 copies)",
+     "date_sort": "2026-09-23",
+     "status": "HELD (copy; attachment read)",
+     "holder": "The National Archives, reply attachment (CAS-347296)",
+     "page": null
+    },
+    {
+     "id": "EV-0780",
+     "kind": "evidence",
+     "title": "The National Archives FOI CAS-347296: \"Collect 27 Series 11\" manifest (redacted CSV), attached to the replies of 23 Sep and 1 Oct 2026",
+     "date_display": "23 Sep 2026 to 1 Oct 2026 (2 copies)",
+     "date_sort": "2026-09-23",
+     "status": "HELD (copy; attachment read)",
+     "holder": "The National Archives, reply attachment (CAS-347296)",
+     "page": null
+    },
+    {
+     "id": "EV-0146",
+     "kind": "evidence",
+     "title": "The National Archives Manorial Documents Register: Llandough Manor Return (HMC 9.311)",
+     "date_display": "26 February 2026",
+     "date_sort": "2026-02-26",
+     "status": "HELD",
+     "holder": "The National Archives, Manorial Documents Register, HMC 9.311 (Llandough manor return); Uploaded copy held in the Cedwyn evidence repository.",
+     "page": null
+    },
+    {
+     "id": "MR-0034",
+     "kind": "missing_record",
+     "title": "Search record of The National Archives' FOI search CAS-347296 (terms beyond the four used)",
+     "date_display": "2026-09-23",
+     "date_sort": "2026",
+     "status": "SEARCH INCOMPLETE",
+     "holder": "The National Archives",
+     "page": "/research/missing-records/#mr-0034"
+    },
+    {
+     "id": "EV-0650",
+     "kind": "evidence",
+     "title": "The National Archives MH 96/289-294: Ministry of Health files on the erection and appropriation of Llandough Hospital (1922-1944)",
+     "date_display": "1922-1944 (site bought 1912; hospital opened 1933)",
+     "date_sort": "1922-01-01",
+     "status": "HELD (catalogue only)",
+     "holder": "The National Archives, Kew: MH 96/290-294 'Cardiff County Borough Council: erection of a hospital at Llandough' and MH 96/289 (appropriation under the Public Health Acts Amendment Act 1907, s.95); later files MH 96/1699 (1934-1954)",
+     "page": null
+    },
+    {
+     "id": "EV-0678",
+     "kind": "evidence",
+     "title": "The National Archives OS 35/2505: Ordnance Survey object name book, Glamorgan sheet 47 SW, parishes including Llandough, Cogan and Michaelston-le-Pit (1898-1943), companion to EV-0252",
+     "date_display": "1898-1943",
+     "date_sort": "1898-01-01",
+     "status": "HELD (catalogue only)",
+     "holder": "The National Archives, Kew: OS 35/2505",
+     "page": null
+    },
+    {
+     "id": "EV-0654",
+     "kind": "evidence",
+     "title": "The National Archives OS 26/4046: Ordnance Survey boundary remark book with strip maps, Cogan, Llandough juxta Cardiff, Lavernock and Penarth (1875)",
+     "date_display": "1875",
+     "date_sort": "1875-01-01",
+     "status": "HELD (catalogue only)",
+     "holder": "The National Archives, Kew: OS 26/4046 (Discovery C4928670), NGR ST 1671",
+     "page": null
+    },
+    {
+     "id": "EV-0653",
+     "kind": "evidence",
+     "title": "The National Archives IR 18/14413: Tithe Commission file for Llandough, Cogan and Leckwith (1836-c1870), with TNA copies IR 29/51/58 (apportionment) and IR 30/51/58 (map)",
+     "date_display": "1836-c1870 (apportionment 15 May 1841)",
+     "date_sort": "1836-01-01",
+     "status": "HELD (catalogue only)",
+     "holder": "The National Archives, Kew: IR 18/14413 (Discovery C3260930); related IR 29/51/58 and IR 30/51/58",
+     "page": null
+    }
+   ]
+  },
+  "amgueddfa-cymru-museum-wales": {
+   "name": "Amgueddfa Cymru — Museum Wales",
+   "count": 22,
+   "records": [
+    {
+     "id": "EV-0723",
+     "kind": "evidence",
+     "title": "Amgueddfa Cymru – Museum Wales, further reply on FOI 2026-020 (furniture and moveable property from Great House Farm / Tŷ Mawr, Llandough), 4 November 2026: added name variants checked, no further records",
+     "date_display": "4 November 2026 (request 2 July 2026; internal review 8 September 2026)",
+     "date_sort": "2026-11-04",
+     "status": "HELD (correspondence)",
+     "holder": "Amgueddfa Cymru – Museum Wales, FOI Team, email of 4 November 2026 15:16 UTC, FOI 2026-020 (reply to an email of 29 October 2026 supplying further names), project mailbox",
+     "page": null
+    },
+    {
+     "id": "EV-0721",
+     "kind": "evidence",
+     "title": "Complaint under section 50 FOIA to the Information Commissioner’s Office, 3 November 2026, about Amgueddfa Cymru – Museum Wales’s handling of FOI 2026-024 (Tŷ Mawr (Great House), Llandough)",
+     "date_display": "3 November 2026",
+     "date_sort": "2026-11-03",
+     "status": "HELD (correspondence)",
+     "holder": "Project mailbox: email to the Information Commissioner’s Office, 3 November 2026 14:12 UTC (same thread as an earlier email that day, acknowledged at 13:51 UTC under case reference IC-591931-B6H0)",
+     "page": null
+    },
+    {
+     "id": "EV-0190",
+     "kind": "evidence",
+     "title": "Amgueddfa Cymru reply to FOI 2026-036: further collections search (accession 63.24)",
+     "date_display": "5 and 7 October 2026",
+     "date_sort": "2026-10-05",
+     "status": "HELD",
+     "holder": "Amgueddfa Cymru – Museum Wales, FOI 2026-036 reply (emails of 5 and 7 Oct 2026) with three PDF attachments (GHF-E106-R33-A1 to A3).",
+     "page": null
+    },
+    {
+     "id": "EV-0779",
+     "kind": "evidence",
+     "title": "Amgueddfa Cymru FOI 2026-032 disclosure (22 Sep 2026): image titled \"1924\"",
+     "date_display": "22 Sep 2026",
+     "date_sort": "2026-09-22",
+     "status": "HELD IN GMAIL, NOT YET EXTRACTED",
+     "holder": "Amgueddfa Cymru - Museum Wales, reply attachment (FOI 2026-032)",
+     "page": null
+    },
+    {
+     "id": "EV-0778",
+     "kind": "evidence",
+     "title": "Amgueddfa Cymru FOI 2026-032 disclosure (22 Sep 2026): explanatory note to the disclosure",
+     "date_display": "22 Sep 2026",
+     "date_sort": "2026-09-22",
+     "status": "HELD IN GMAIL, NOT YET EXTRACTED",
+     "holder": "Amgueddfa Cymru - Museum Wales, reply attachment (FOI 2026-032)",
+     "page": null
+    },
+    {
+     "id": "EV-0777",
+     "kind": "evidence",
+     "title": "Amgueddfa Cymru FOI 2026-032 disclosure (22 Sep 2026): burial data",
+     "date_display": "22 Sep 2026",
+     "date_sort": "2026-09-22",
+     "status": "HELD IN GMAIL, NOT YET EXTRACTED",
+     "holder": "Amgueddfa Cymru - Museum Wales, reply attachment (FOI 2026-032)",
+     "page": null
+    },
+    {
+     "id": "EV-0776",
+     "kind": "evidence",
+     "title": "Amgueddfa Cymru FOI 2026-032 disclosure (22 Sep 2026): accession 95.56H list",
+     "date_display": "22 Sep 2026",
+     "date_sort": "2026-09-22",
+     "status": "HELD IN GMAIL, NOT YET EXTRACTED",
+     "holder": "Amgueddfa Cymru - Museum Wales, reply attachment (FOI 2026-032)",
+     "page": null
+    },
+    {
+     "id": "EV-0775",
+     "kind": "evidence",
+     "title": "Amgueddfa Cymru FOI 2026-032 disclosure (22 Sep 2026): accession 95.56H details",
+     "date_display": "22 Sep 2026",
+     "date_sort": "2026-09-22",
+     "status": "HELD IN GMAIL, NOT YET EXTRACTED",
+     "holder": "Amgueddfa Cymru - Museum Wales, reply attachment (FOI 2026-032)",
+     "page": null
+    },
+    {
+     "id": "EV-0774",
+     "kind": "evidence",
+     "title": "Amgueddfa Cymru FOI 2026-032 disclosure (22 Sep 2026): accession 82.44H list",
+     "date_display": "22 Sep 2026",
+     "date_sort": "2026-09-22",
+     "status": "HELD IN GMAIL, NOT YET EXTRACTED",
+     "holder": "Amgueddfa Cymru - Museum Wales, reply attachment (FOI 2026-032)",
+     "page": null
+    },
+    {
+     "id": "EV-0773",
+     "kind": "evidence",
+     "title": "Amgueddfa Cymru FOI 2026-032 disclosure (22 Sep 2026): accession 82.44H details",
+     "date_display": "22 Sep 2026",
+     "date_sort": "2026-09-22",
+     "status": "HELD IN GMAIL, NOT YET EXTRACTED",
+     "holder": "Amgueddfa Cymru - Museum Wales, reply attachment (FOI 2026-032)",
+     "page": null
+    },
+    {
+     "id": "EV-0772",
+     "kind": "evidence",
+     "title": "Amgueddfa Cymru FOI 2026-032 disclosure (22 Sep 2026): Roman villa, Llandough document",
+     "date_display": "22 Sep 2026",
+     "date_sort": "2026-09-22",
+     "status": "HELD IN GMAIL, NOT YET EXTRACTED",
+     "holder": "Amgueddfa Cymru - Museum Wales, reply attachment (FOI 2026-032)",
+     "page": null
+    },
+    {
+     "id": "EV-0771",
+     "kind": "evidence",
+     "title": "Amgueddfa Cymru FOI 2026-032 disclosure (22 Sep 2026): Portable Antiquities Scheme (PAS) finds",
+     "date_display": "22 Sep 2026",
+     "date_sort": "2026-09-22",
+     "status": "HELD IN GMAIL, NOT YET EXTRACTED",
+     "holder": "Amgueddfa Cymru - Museum Wales, reply attachment (FOI 2026-032)",
+     "page": null
+    },
+    {
+     "id": "EV-0770",
+     "kind": "evidence",
+     "title": "Amgueddfa Cymru FOI 2026-032 disclosure (22 Sep 2026): Llandough excavation document",
+     "date_display": "22 Sep 2026",
+     "date_sort": "2026-09-22",
+     "status": "HELD IN GMAIL, NOT YET EXTRACTED",
+     "holder": "Amgueddfa Cymru - Museum Wales, reply attachment (FOI 2026-032)",
+     "page": null
+    },
+    {
+     "id": "EV-0769",
+     "kind": "evidence",
+     "title": "Amgueddfa Cymru FOI 2026-032 disclosure (22 Sep 2026): \"Filling the gaps\" document",
+     "date_display": "22 Sep 2026",
+     "date_sort": "2026-09-22",
+     "status": "HELD IN GMAIL, NOT YET EXTRACTED",
+     "holder": "Amgueddfa Cymru - Museum Wales, reply attachment (FOI 2026-032)",
+     "page": null
+    },
+    {
+     "id": "EV-0716",
+     "kind": "evidence",
+     "title": "Amgueddfa Cymru – Museum Wales, internal review of FOI 2026-024, 22 September 2026: “not held” upheld; the other archaeological records found in the searches to receive “a separate response”",
+     "date_display": "22 September 2026",
+     "date_sort": "2026-09-22",
+     "status": "HELD (correspondence)",
+     "holder": "Amgueddfa Cymru – Museum Wales, FOI Requests, email of 22 September 2026 (FOI Internal Review - 2026-024 - Great House Farm, Llandough)",
+     "page": null
+    },
+    {
+     "id": "EV-0715",
+     "kind": "evidence",
+     "title": "Amgueddfa Cymru – Museum Wales, response to FOI 2026-024, 25 August 2026: information “not held” (s.1(1)(a)); searches found records of “other archaeological discoveries recorded at Great House Farm (Ty Mawr), Llandough”",
+     "date_display": "25 August 2026 (request received 27 July 2026)",
+     "date_sort": "2026-08-25",
+     "status": "HELD (correspondence)",
+     "holder": "Amgueddfa Cymru – Museum Wales, FOI Requests, email of 25 August 2026, FOI 2026-024",
+     "page": null
+    },
+    {
+     "id": "MR-0035",
+     "kind": "missing_record",
+     "title": "Amgueddfa Cymru search log for FOI 2026-024 / 032 / 036 (which results were excluded and why)",
+     "date_display": "2026",
+     "date_sort": "2026",
+     "status": "NOT HELD (holder states)",
+     "holder": "Amgueddfa Cymru – Museum Wales",
+     "page": "/research/missing-records/#mr-0035"
+    },
+    {
+     "id": "EV-0140",
+     "kind": "evidence",
+     "title": "Museum Wales record 63.24/1: medieval iron spur, Llandough Church Farm, 1858",
+     "date_display": "Record created 17 October 1994; last updated 25 June 2015 (printout received 5 October 2026)",
+     "date_sort": "2015-06-25",
+     "status": "HELD",
+     "holder": "Amgueddfa Cymru – Museum Wales; Object number 63.24/1 (Micromusée V6 SN 6236); Acquisition entry number 1963.24; Store box M02.03; Black and white negative 21882",
+     "page": null
+    },
+    {
+     "id": "EV-0138",
+     "kind": "evidence",
+     "title": "Museum Wales collections record 63.24/2: medieval iron spearhead, Llandough Church Farm",
+     "date_display": "Record created 3 May 1995; last updated 25 March 2003 (printout received 5 October 2026)",
+     "date_sort": "2003-03-25",
+     "status": "HELD",
+     "holder": "Amgueddfa Cymru – Museum Wales; Object number 63.24/2 (Micromusée V6 SN 10891); Acquisition entry number 1963.24 (8 February 1963, 3 objects, donation); Storage box M02.03.",
+     "page": null
+    },
+    {
+     "id": "EV-0646",
+     "kind": "evidence",
+     "title": "Amgueddfa Cymru – Museum Wales 95.56H/2-8 (coins and tokens) and 95.56H/129-135 (prehistoric worked flint): finds from the 1994 Great House Farm, Llandough excavation",
+     "date_display": "1994 (excavation; donated to the museum 28 Jul 1994)",
+     "date_sort": "1994-07-28",
+     "status": "HELD (catalogue only)",
+     "holder": "Amgueddfa Cymru – Museum Wales, Archaeology & Numismatics, items 95.56H/2-8 and 95.56H/129-135 (location: in store)",
+     "page": null
+    },
+    {
+     "id": "EV-0827",
+     "kind": "evidence",
+     "title": "Amgueddfa Cymru – Museum Wales, item 30.130/8: Late Bronze Age bronze sickle, found 1928 \"on the flood plain between the Ely and Taff rivers, near the football ground\"; donated 11 March 1930",
+     "date_display": "1928 (find); 1930 (acquisition)",
+     "date_sort": "1928",
+     "status": "HELD (museum record, read online)",
+     "holder": "Amgueddfa Cymru – Museum Wales, Collections Online, item 30.130/8 https://museum.wales/collections/online/object/99f80e0d-0cea-36c1-8c8e-cd1044872d4a",
+     "page": null
+    },
+    {
+     "id": "EV-0664",
+     "kind": "evidence",
+     "title": "St Dochdwy's Church, Llandough: ICBS file 6392 (1865-7 rebuild) and Amgueddfa Cymru drawings by T. H. Thomas (NMW A 11822) and C. L. Traherne (NMW A 1379)",
+     "date_display": "1865-1938",
+     "date_sort": "1865-01-01",
+     "status": "HELD (catalogue only)",
+     "holder": "Lambeth Palace Library, Incorporated Church Building Society file 6392; Amgueddfa Cymru – Museum Wales NMW A 11822 (bequest 21/5/1916) and NMW A 1379 (bequest 12/8/1938)",
+     "page": null
+    }
+   ]
+  },
+  "bp-properties-bp-pension-trust": {
+   "name": "BP Properties Ltd and BP Pension Trust",
+   "count": 0,
+   "records": []
+  },
+  "heneb": {
+   "name": "Heneb",
+   "count": 6,
+   "records": [
+    {
+     "id": "EV-0799",
+     "kind": "evidence",
+     "title": "Heneb HER change-log row (redacted CSV), attached to the reply of 29 Oct 2026",
+     "date_display": "29 Oct 2026",
+     "date_sort": "2026-10-29",
+     "status": "HELD IN GMAIL, NOT YET EXTRACTED",
+     "holder": "Heneb (formerly GGAT) / Historic Environment Record, reply attachment",
+     "page": null
+    },
+    {
+     "id": "EV-0182",
+     "kind": "evidence",
+     "title": "Multi-recipient preservation notice copied to Heneb general and HER email addresses",
+     "date_display": "28 September 2026",
+     "date_sort": "2026-09-28",
+     "status": "PENDING",
+     "holder": "Original Gmail thread held by the author (private mailbox; Thread ID in catalogue, URLs omitted). Catalogue ID GHF-E187.",
+     "page": null
+    },
+    {
+     "id": "EV-0180",
+     "kind": "evidence",
+     "title": "Heneb/HER identifiers and site classification complaint and acknowledgements",
+     "date_display": "27–30 September 2026",
+     "date_sort": "2026-09-27",
+     "status": "PENDING",
+     "holder": "Original Gmail thread held by the author (private mailbox); No thread ID or reference reproduced",
+     "page": null
+    },
+    {
+     "id": "EV-0179",
+     "kind": "evidence",
+     "title": "Enquiry to former GGAT / Heneb about reported March 1983 Neath warehouse fire",
+     "date_display": "24 September 2026",
+     "date_sort": "2026-09-24",
+     "status": "PENDING",
+     "holder": "Original correspondence held by the author (Gmail thread); Existing Wiki catalogue records a thread ID, not given here.",
+     "page": null
+    },
+    {
+     "id": "EV-0175",
+     "kind": "evidence",
+     "title": "Heneb / HER itemised schedule of records and response (email thread)",
+     "date_display": "19 September–16 October 2026",
+     "date_sort": "2026-09-19",
+     "status": "PENDING",
+     "holder": "Author holds original correspondence in a Gmail thread. Catalogue ID GHF-E184; Existing catalogue records the thread ID (not stated here); Mailbox URLs omitted.",
+     "page": null
+    },
+    {
+     "id": "EV-0152",
+     "kind": "evidence",
+     "title": "Heneb / HER email reply stating Heneb is not subject to FOI requests",
+     "date_display": "22 May 2026",
+     "date_sort": "2026-05-22",
+     "status": "PENDING",
+     "holder": "Original correspondence (Gmail thread) held by the author. Catalogue ID GHF-E188; Related: Heneb / HER correspondence catalogue — Thread 6.",
+     "page": null
+    }
+   ]
+  },
+  "ico": {
+   "name": "Information Commissioner’s Office (ICO)",
+   "count": 1,
+   "records": [
+    {
+     "id": "EV-0721",
+     "kind": "evidence",
+     "title": "Complaint under section 50 FOIA to the Information Commissioner’s Office, 3 November 2026, about Amgueddfa Cymru – Museum Wales’s handling of FOI 2026-024 (Tŷ Mawr (Great House), Llandough)",
+     "date_display": "3 November 2026",
+     "date_sort": "2026-11-03",
+     "status": "HELD (correspondence)",
+     "holder": "Project mailbox: email to the Information Commissioner’s Office, 3 November 2026 14:12 UTC (same thread as an earlier email that day, acknowledged at 13:51 UTC under case reference IC-591931-B6H0)",
+     "page": null
+    }
+   ]
+  },
+  "rcahmw": {
+   "name": "RCAHMW",
+   "count": 17,
+   "records": [
+    {
+     "id": "EV-0798",
+     "kind": "evidence",
+     "title": "Historic England letter of 12 Jan 2018 transferring the Welsh archaeological-reports microfiche to RCAHMW (redacted), disclosed on reconsideration of ref 26/04323 (27 Oct 2026)",
+     "date_display": "27 Oct 2026",
+     "date_sort": "2026-10-27",
+     "status": "HELD (copy; attachment read)",
+     "holder": "Historic England, reply attachment (26/04323)",
+     "page": null
+    },
+    {
+     "id": "EV-0784",
+     "kind": "evidence",
+     "title": "RCAHMW price list LES16 (2026 edition, later issue), attached to replies of 6 and 13 Oct 2026",
+     "date_display": "6 Oct 2026 to 13 Oct 2026 (2 copies)",
+     "date_sort": "2026-10-06",
+     "status": "HELD (copy; attachment read)",
+     "holder": "RCAHMW (Royal Commissionsion), reply attachment",
+     "page": null
+    },
+    {
+     "id": "EV-0185",
+     "kind": "evidence",
+     "title": "RCAHMW archive-reproduction order form RC26-0375",
+     "date_display": "29 September 2026",
+     "date_sort": "2026-09-29",
+     "status": "HELD",
+     "holder": "Uploaded copy: the Cedwyn evidence repository (wiki media library). Order reference RC26-0375 (RCAHMW). Wiki catalogue reference GHF-E106-R01-A1.",
+     "page": null
+    },
+    {
+     "id": "EV-0184",
+     "kind": "evidence",
+     "title": "RCAHMW (National Monuments Record) email reply RC26-0375 on Ty Mawr/Great House, Llandough",
+     "date_display": "29 September 2026",
+     "date_sort": "2026-09-29",
+     "status": "PENDING",
+     "holder": "Royal Commission on the Ancient and Historical Monuments of Wales (RCAHMW), National Monuments Record enquiries service. Ref. RC26-0375 (including RC26-0353, -0368, -0371).",
+     "page": null
+    },
+    {
+     "id": "EV-0753",
+     "kind": "evidence",
+     "title": "RCAHMW price list LES16 (2026 edition, first issue), attached to replies of 28 May and 10 Jun 2026 (RC26-0205)",
+     "date_display": "28 May 2026 to 10 Jun 2026 (2 copies)",
+     "date_sort": "2026-05-28",
+     "status": "HELD (copy; attachment read)",
+     "holder": "RCAHMW (Royal Commissionsion), reply attachment (RC26-0205)",
+     "page": null
+    },
+    {
+     "id": "EV-0154",
+     "kind": "evidence",
+     "title": "RCAHMW fee schedule for reproduction/licensing request RC26-0205",
+     "date_display": "28 May 2026",
+     "date_sort": "2026-05-28",
+     "status": "HELD",
+     "holder": "Issued by RCAHMW (reference RC26-0205); Uploaded copy held in the Cedwyn evidence repository.",
+     "page": null
+    },
+    {
+     "id": "EV-0143",
+     "kind": "evidence",
+     "title": "RCAHMW price list for request RC26-0375",
+     "date_display": "2026",
+     "date_sort": "2026-00-00",
+     "status": "HELD",
+     "holder": "Royal Commission on the Ancient and Historical Monuments of Wales (RCAHMW), reference RC26-0375; Uploaded copy held in the Cedwyn evidence repository (catalogue GHF-E106-R01-A2)",
+     "page": null
+    },
+    {
+     "id": "EV-0744",
+     "kind": "evidence",
+     "title": "RCAHMW reproduction order form LES08 (2021 edition), attached to six RCAHMW replies, Nov 2025 to Oct 2026",
+     "date_display": "26 Nov 2025 to 26 Oct 2026 (6 copies)",
+     "date_sort": "2025-11-26",
+     "status": "HELD (copy; attachment read)",
+     "holder": "RCAHMW (Royal Commissionsion), reply attachment",
+     "page": null
+    },
+    {
+     "id": "EV-0743",
+     "kind": "evidence",
+     "title": "RCAHMW price list LES16 (2025 edition), attached to the reply of 26 Nov 2025",
+     "date_display": "26 Nov 2025",
+     "date_sort": "2025-11-26",
+     "status": "HELD (copy; attachment read)",
+     "holder": "RCAHMW (Royal Commissionsion), reply attachment",
+     "page": null
+    },
+    {
+     "id": "MR-0049",
+     "kind": "missing_record",
+     "title": "Itemised list of the RCHME microfiche section sent from Historic England to RCAHMW on 12 January 2018",
+     "date_display": "2018-01-12",
+     "date_sort": "2018",
+     "status": "NOT HELD (holder states)",
+     "holder": "RCAHMW (receiving body); Historic England",
+     "page": "/research/missing-records/#mr-0049"
+    },
+    {
+     "id": "EV-0629",
+     "kind": "evidence",
+     "title": "RCAHMW record NA/GL/88/49: typed description of Tŷ Mawr / Great House Farm (December 1988)",
+     "date_display": "December 1988 (the text records the demolition of 6 December 1988)",
+     "date_sort": "1988-12-06",
+     "status": "HELD (copy)",
+     "holder": "Royal Commission on the Ancient and Historical Monuments of Wales (RCAHMW), National Monuments Record for Wales",
+     "page": "/research/evidence/ev-0629-rcahmw-na-gl-88-49-description-1988/"
+    },
+    {
+     "id": "EV-0739",
+     "kind": "evidence",
+     "title": "RCAHMW National Monuments Record NPRN 20182 \"Ty Mawr; Great House Farm\", public catalogue copy: \"Demolished December 1988\"; \"A farmhouse of limestone construction of uncertain date\" with C17 internal detail and a possible medieval core, \"altered and reconstructed by the Bute estate in the C19\"; early medieval cemetery excavated by Cotswold Archaeology in 1994",
+     "date_display": "December 1988 (demolition, as recorded); site-file notes entered 26 Apr 2004; 1994 excavation note added 9 Jun 2014",
+     "date_sort": "1988-12",
+     "status": "HELD (catalogue only)",
+     "holder": "Royal Commission on the Ancient and Historical Monuments of Wales (RCAHMW), National Monuments Record of Wales (Coflein), NPRN 20182, public copy in the Archaeology Data Service / ARIADNE catalogue",
+     "page": null
+    },
+    {
+     "id": "MR-0028",
+     "kind": "missing_record",
+     "title": "RCAHMW correspondence between C.N. Johns and the occupiers of Great House Farm, 1986–87",
+     "date_display": "1986–1987",
+     "date_sort": "1986",
+     "status": "NOT FOUND (holder records loss)",
+     "holder": "RCAHMW (National Monuments Record of Wales)",
+     "page": "/research/missing-records/#mr-0028"
+    },
+    {
+     "id": "EV-0631",
+     "kind": "evidence",
+     "title": "RCAHMW record NA/GL/89/208: H. J. Thomas measured plan of Great House Farm (26 April 1974 and 12 December 1988)",
+     "date_display": "26 April 1974 (survey); 12 December 1988 (second date on the card)",
+     "date_sort": "1974-04-26",
+     "status": "HELD (copy)",
+     "holder": "Royal Commission on the Ancient and Historical Monuments of Wales (RCAHMW), National Monuments Record; drawn by H. J. Thomas",
+     "page": "/research/evidence/ev-0631-rcahmw-na-gl-89-208-measured-plan-1974-1988/"
+    },
+    {
+     "id": "EV-0047",
+     "kind": "evidence",
+     "title": "H. J. Thomas architectural survey and floor plan of the house (RCAHMW / NMR)",
+     "date_display": "1974",
+     "date_sort": "1974-00-00",
+     "status": "PENDING",
+     "holder": "Royal Commission on the Ancient and Historical Monuments of Wales (NMR); NMR 6048941, 6048943, 6048945 (survey/correspondence ref unclear); Order ref RCAHMW RC26-0375.",
+     "page": null
+    },
+    {
+     "id": "MR-0040",
+     "kind": "missing_record",
+     "title": "H. J. Thomas architectural survey and floor plan of the house (RCAHMW / NMR)",
+     "date_display": "1974",
+     "date_sort": "1974",
+     "status": "NOT YET OBTAINED",
+     "holder": "Royal Commission on the Ancient and Historical Monuments of Wales (NMR); NMR 6048941, 6048943, 6048945 (survey/correspondence ref unclear); Order ref RCAHMW RC26-0375.",
+     "page": "/research/missing-records/#mr-0040"
+    },
+    {
+     "id": "EV-0828",
+     "kind": "evidence",
+     "title": "RCAHMW Coflein NPRN 24126, Leckwith Old Bridge, Leckwith, Cardiff (ST 15911 75248): \"A stone bridge across the River Ely was here as early as 1536\"; three-arched coursed-stone bridge; reinforced concrete single arch (NPRN 307689) \"opened in 1935\" alongside",
+     "date_display": "record of 4 June 2010 (bridge from 1536; concrete arch 1935)",
+     "date_sort": "1536",
+     "status": "HELD (public record, read online)",
+     "holder": "RCAHMW Coflein, NPRN 24126 https://coflein.gov.uk/en/site/24126/ (capture http://web.archive.org/web/20260112031130/https://coflein.gov.uk/en/site/24126/)",
+     "page": null
+    }
+   ]
+  },
+  "welsh-government": {
+   "name": "Welsh Government",
+   "count": 13,
+   "records": [
+    {
+     "id": "EV-0818",
+     "kind": "evidence",
+     "title": "Welsh Government ATISN 26-0009 response letter (6 Nov 2026): no information held on when the 1988 listing file was destroyed",
+     "date_display": "6 Nov 2026",
+     "date_sort": "2026-11-06",
+     "status": "HELD IN GMAIL, NOT YET EXTRACTED",
+     "holder": "Welsh Government / Cadw, reply attachment (ATISN 26-0009)",
+     "page": null
+    },
+    {
+     "id": "EV-0817",
+     "kind": "evidence",
+     "title": "Welsh Government ATISN 26-0009 release document 5 of 5 (6 Nov 2026)",
+     "date_display": "6 Nov 2026",
+     "date_sort": "2026-11-06",
+     "status": "HELD IN GMAIL, NOT YET EXTRACTED",
+     "holder": "Welsh Government / Cadw, reply attachment (ATISN 26-0009)",
+     "page": null
+    },
+    {
+     "id": "EV-0816",
+     "kind": "evidence",
+     "title": "Welsh Government ATISN 26-0009 release document 4 of 5 (6 Nov 2026)",
+     "date_display": "6 Nov 2026",
+     "date_sort": "2026-11-06",
+     "status": "HELD IN GMAIL, NOT YET EXTRACTED",
+     "holder": "Welsh Government / Cadw, reply attachment (ATISN 26-0009)",
+     "page": null
+    },
+    {
+     "id": "EV-0815",
+     "kind": "evidence",
+     "title": "Welsh Government ATISN 26-0009 release document 3 of 5 (6 Nov 2026)",
+     "date_display": "6 Nov 2026",
+     "date_sort": "2026-11-06",
+     "status": "HELD IN GMAIL, NOT YET EXTRACTED",
+     "holder": "Welsh Government / Cadw, reply attachment (ATISN 26-0009)",
+     "page": null
+    },
+    {
+     "id": "EV-0814",
+     "kind": "evidence",
+     "title": "Welsh Government ATISN 26-0009 release document 2 of 5 (6 Nov 2026)",
+     "date_display": "6 Nov 2026",
+     "date_sort": "2026-11-06",
+     "status": "HELD IN GMAIL, NOT YET EXTRACTED",
+     "holder": "Welsh Government / Cadw, reply attachment (ATISN 26-0009)",
+     "page": null
+    },
+    {
+     "id": "EV-0813",
+     "kind": "evidence",
+     "title": "Welsh Government ATISN 26-0009 release document 1 of 5 (6 Nov 2026)",
+     "date_display": "6 Nov 2026",
+     "date_sort": "2026-11-06",
+     "status": "HELD IN GMAIL, NOT YET EXTRACTED",
+     "holder": "Welsh Government / Cadw, reply attachment (ATISN 26-0009)",
+     "page": null
+    },
+    {
+     "id": "EV-0792",
+     "kind": "evidence",
+     "title": "Defra FOI2026/23886 response (21 Oct 2026): 1936-1955 farm records not held; may be held by the Welsh Government",
+     "date_display": "21 Oct 2026",
+     "date_sort": "2026-10-21",
+     "status": "HELD IN GMAIL, NOT YET EXTRACTED (reply text archived; the PDF itself not catalogued)",
+     "holder": "Defra, reply attachment (FOI2026/23886)",
+     "page": null
+    },
+    {
+     "id": "EV-0791",
+     "kind": "evidence",
+     "title": "Welsh Government ATISN 27589 response letter (19 Oct 2026): refused under FOIA s.14(2) as a repeat of ATISN 27021",
+     "date_display": "19 Oct 2026",
+     "date_sort": "2026-10-19",
+     "status": "HELD (copy; attachment read)",
+     "holder": "Welsh Government / Cadw, reply attachment (ATISN 27589)",
+     "page": null
+    },
+    {
+     "id": "EV-0790",
+     "kind": "evidence",
+     "title": "Welsh Government ATISN 26-0010 disclosure letter (19 Oct 2026): retention and destruction schedules; no files found under the farm name, Western Ground Rents Ltd or BP Properties",
+     "date_display": "19 Oct 2026",
+     "date_sort": "2026-10-19",
+     "status": "HELD (copy; attachment read)",
+     "holder": "Welsh Government / Cadw, reply attachment (ATISN 26-0010)",
+     "page": null
+    },
+    {
+     "id": "EV-0789",
+     "kind": "evidence",
+     "title": "Welsh Government ATISN 26-0010 acknowledgement letter (14 Oct 2026)",
+     "date_display": "14 Oct 2026",
+     "date_sort": "2026-10-14",
+     "status": "HELD (copy; attachment read)",
+     "holder": "Welsh Government / Cadw, reply attachment (ATISN 26-0010)",
+     "page": null
+    },
+    {
+     "id": "EV-0757",
+     "kind": "evidence",
+     "title": "Welsh Government ATISN 27021 internal review outcome letter (2 Jul 2026)",
+     "date_display": "2 Jul 2026",
+     "date_sort": "2026-07-02",
+     "status": "HELD (copy; attachment read)",
+     "holder": "Welsh Government / Cadw, reply attachment (ATISN 27021)",
+     "page": null
+    },
+    {
+     "id": "EV-0755",
+     "kind": "evidence",
+     "title": "Welsh Government internal review acknowledgement letter for ATISN 27021 (15 Jun 2026)",
+     "date_display": "15 Jun 2026",
+     "date_sort": "2026-06-15",
+     "status": "HELD (copy; attachment read)",
+     "holder": "Welsh Government / Cadw, reply attachment (ATISN 27021)",
+     "page": null
+    },
+    {
+     "id": "EV-0156",
+     "kind": "evidence",
+     "title": "Welsh Government/Cadw ATISN 27021 response letter",
+     "date_display": "11 June 2026",
+     "date_sort": "2026-06-11",
+     "status": "HELD",
+     "holder": "Welsh Government/Cadw (ATISN 27021); Uploaded source copy held in the Cedwyn evidence repository, wiki catalogue reference GHF-E106-R37-A1",
+     "page": null
+    }
+   ]
+  },
+  "bute-estate": {
+   "name": "Bute Estate",
+   "count": 8,
+   "records": [
+    {
+     "id": "EV-0739",
+     "kind": "evidence",
+     "title": "RCAHMW National Monuments Record NPRN 20182 \"Ty Mawr; Great House Farm\", public catalogue copy: \"Demolished December 1988\"; \"A farmhouse of limestone construction of uncertain date\" with C17 internal detail and a possible medieval core, \"altered and reconstructed by the Bute estate in the C19\"; early medieval cemetery excavated by Cotswold Archaeology in 1994",
+     "date_display": "December 1988 (demolition, as recorded); site-file notes entered 26 Apr 2004; 1994 excavation note added 9 Jun 2014",
+     "date_sort": "1988-12",
+     "status": "HELD (catalogue only)",
+     "holder": "Royal Commission on the Ancient and Historical Monuments of Wales (RCAHMW), National Monuments Record of Wales (Coflein), NPRN 20182, public copy in the Archaeology Data Service / ARIADNE catalogue",
+     "page": null
+    },
+    {
+     "id": "EV-0019",
+     "kind": "evidence",
+     "title": "Bute Estate to Western Ground Rents Ltd conveyance of reversion, with plan",
+     "date_display": "1938",
+     "date_sort": "1938-00-00",
+     "status": "PENDING",
+     "holder": "Not yet disclosed by the bodies that should hold it: Vale of Glamorgan Council deed wallet 1756 (2 of at least 10 documents disclosed, FOI 00211027); no copy found in the catalogued Bute papers at Glamorgan Archives; HM Land Registry titles WA3996 and WA7355 not yet copied",
+     "page": "/research/evidence/ev-0019-bute-wgr-conveyance-plan-1938/"
+    },
+    {
+     "id": "EV-0683",
+     "kind": "evidence",
+     "title": "Glamorgan Archives DBDT/123 'Llandough' (Debenham Tewson, Bute Estate collection): 13 item titles, 1901-1963, none naming Great House Farm or Tŷ Mawr",
+     "date_display": "1901-1963",
+     "date_sort": "1901-04-01",
+     "status": "HELD (catalogue only)",
+     "holder": "Glamorgan Archives, fonds DBDT (Debenham Tewson, solicitors, Cardiff, Bute Estate collection), series DBDT/123",
+     "page": null
+    },
+    {
+     "id": "EV-0698",
+     "kind": "evidence",
+     "title": "NLW Bute Estate Records R 1: Glamorgan Estate rentals, 1728-1893; farm rents and cottage rents include Llandough from 1845",
+     "date_display": "1845-1892/93 (series 1728-1893)",
+     "date_sort": "1845-01-01",
+     "status": "HELD (catalogue only)",
+     "holder": "National Library of Wales, Bute Estate Records, series R 1 (Glamorgan Estate rentals), MMS 992088177902419",
+     "page": null
+    },
+    {
+     "id": "MR-0069",
+     "kind": "missing_record",
+     "title": "Survey and valuation of Llandough manor, 1824 (Bute estate papers)",
+     "date_display": "1824",
+     "date_sort": "1824",
+     "status": "SHOULD EXIST (NOT LOCATED)",
+     "holder": "National Library of Wales (Bute papers, entry \"LLANDOUGH MANOR, survey and valuation, with other manors\")",
+     "page": "/catalogue/?id=MR-0069"
+    },
+    {
+     "id": "EV-0668",
+     "kind": "evidence",
+     "title": "National Library of Wales, Bute estate records: further manorial records for the manor of Llandough, 1610-1857 (S 7, M 17/55-80, M 17/317-27, M 1/716, M 1/171, S 29, A 2/5, 9)",
+     "date_display": "1610-1857",
+     "date_sort": "1610-01-01",
+     "status": "HELD (catalogue only)",
+     "holder": "National Library of Wales, Bute estate records (NRA 581 Stuart), Manorial Documents Register entries via TNA Discovery",
+     "page": null
+    },
+    {
+     "id": "EV-0669",
+     "kind": "evidence",
+     "title": "National Library of Wales, Bute estate records: manorial rentals and court papers for the manor of Leckwith, 1590-1816 (M 17/36, M 1/164-165, S 11-13, S 20, M 17/41-54, R 6/27)",
+     "date_display": "1590-1816",
+     "date_sort": "1590-01-01",
+     "status": "HELD (catalogue only)",
+     "holder": "National Library of Wales, Bute estate records (NRA 581 Stuart), Manorial Documents Register entries via TNA Discovery; also Glamorgan Archives D/D B M/3 court book (1884-1937)",
+     "page": null
+    },
+    {
+     "id": "EV-0003",
+     "kind": "evidence",
+     "title": "Bute Estate Records (1552–1824) Naming Holding as Cedfin/Cydfin/Ken fin Farm or Ty Mawr Farm",
+     "date_display": "1552–1824",
+     "date_sort": "1552-00-00",
+     "status": "PENDING",
+     "holder": "Bute Estate records (repository and reference numbers not stated).",
+     "page": null
+    }
+   ]
+  },
+  "companies-house": {
+   "name": "Companies House",
+   "count": 7,
+   "records": [
+    {
+     "id": "EV-0722",
+     "kind": "evidence",
+     "title": "Companies House Archive Searches reply, 3 November 2026: Mountjoy Limited (00179977) records “were not sent to the National Archives”; paper records and microfiche destroyed",
+     "date_display": "3 November 2026",
+     "date_sort": "2026-11-03",
+     "status": "HELD (correspondence)",
+     "holder": "Companies House, Archive Searches, email of 3 November 2026 10:34 (our ref: Mountjoy Limited), quoted in full in a reply of the same day; project mailbox",
+     "page": null
+    },
+    {
+     "id": "EV-0710",
+     "kind": "evidence",
+     "title": "Companies House Archive Searches reply, 3 November 2026: Western Ground Rents Limited (00342092) records “were not sent to the National Archives”; paper records and microfiche destroyed",
+     "date_display": "3 November 2026",
+     "date_sort": "2026-11-03",
+     "status": "HELD (correspondence)",
+     "holder": "Companies House, Archive Searches, email of 3 November 2026 10:27 UTC (our ref: Western Ground Rents Limited)",
+     "page": null
+    },
+    {
+     "id": "EV-0690",
+     "kind": "evidence",
+     "title": "Companies House 01938061: Intercontinental Land & Development (Cardiff) Ltd (now Helical Bar (Wales) Ltd), name history and charges created 28 October 1988 to Security Pacific National Bank",
+     "date_display": "28 October 1988 (created); 7 November 1988 (delivered)",
+     "date_sort": "1988-10-28",
+     "status": "HELD (public register)",
+     "holder": "Companies House register, company 01938061 (overview, previous names and charges pages)",
+     "page": null
+    },
+    {
+     "id": "EV-0689",
+     "kind": "evidence",
+     "title": "Companies House 00699446 (BP Properties Limited): legal charge created 12 December 1986 to Intercontinental Land & Development Company Limited over 48 Chiswell Street, London EC1",
+     "date_display": "12 December 1986 (created); satisfied 1 February 1989",
+     "date_sort": "1986-12-12",
+     "status": "HELD (public register)",
+     "holder": "Companies House register, BP Properties Limited 00699446, charges",
+     "page": null
+    },
+    {
+     "id": "EV-0714",
+     "kind": "evidence",
+     "title": "Companies House 00759094: Ropemaker Properties Limited, incorporated 29 April 1963 as Cardiff Industrial Estates Limited; renamed 22 September 1986",
+     "date_display": "29 April 1963 (incorporated); name changed 22 September 1986",
+     "date_sort": "1986-09-22",
+     "status": "HELD (public record)",
+     "holder": "Companies House register, company 00759094 (overview and previous company names)",
+     "page": null
+    },
+    {
+     "id": "EV-0692",
+     "kind": "evidence",
+     "title": "Companies House 00776493: BP Trustees Limited, incorporated 8 October 1963, dissolved 12 June 1997",
+     "date_display": "8 October 1963 (incorporated); dissolved 12 June 1997",
+     "date_sort": "1963-10-08",
+     "status": "HELD (public register)",
+     "holder": "Companies House dissolved-company index, BP TRUSTEES LIMITED 00776493",
+     "page": null
+    },
+    {
+     "id": "EV-0691",
+     "kind": "evidence",
+     "title": "Companies House 00230748: BP Pension Trustees Limited, incorporated 25 May 1928 as British Petroleum Pension Trust Limited (The), renamed 31 March 1989",
+     "date_display": "25 May 1928 (incorporated); name changed 31 March 1989",
+     "date_sort": "1928-05-25",
+     "status": "HELD (public register)",
+     "holder": "Companies House register, company 00230748 (overview and previous names)",
+     "page": null
+    }
+   ]
+  },
+  "cardiff-city-council": {
+   "name": "Cardiff City Council",
+   "count": 1,
+   "records": [
+    {
+     "id": "EV-0688",
+     "kind": "evidence",
+     "title": "Hansard, HC Deb 30 June 1938 vol 337 cc2141-2W: written question on Cardiff City Council's proposed purchase from Mountjoy, Limited of about 80 acres at Leckwith Moors",
+     "date_display": "30 June 1938",
+     "date_sort": "1938-06-30",
+     "status": "HELD (public printed copy)",
+     "holder": "Hansard (House of Commons), Written Answers, 'Acquisition of Land, Cardiff'; UK Parliament historic Hansard",
+     "page": null
+    }
+   ]
+  },
+  "ministry-of-justice": {
+   "name": "Ministry of Justice",
+   "count": 9,
+   "records": [
+    {
+     "id": "EV-0786",
+     "kind": "evidence",
+     "title": "Ministry of Justice internal review outcome letter for FOI 260813002 (9 Oct 2026)",
+     "date_display": "9 Oct 2026",
+     "date_sort": "2026-10-09",
+     "status": "HELD (copy; attachment read)",
+     "holder": "Ministry of Justice / HMCTS, reply attachment (IR FOI 260813002)",
+     "page": null
+    },
+    {
+     "id": "EV-0173",
+     "kind": "evidence",
+     "title": "Ministry of Justice FOI internal-review extension letter",
+     "date_display": "9 September 2026",
+     "date_sort": "2026-09-09",
+     "status": "HELD",
+     "holder": "The Cedwyn evidence repository (wiki catalogue reference GHF-E106-R26-A2). FOI reference 260813002 from page URL/filename.",
+     "page": null
+    },
+    {
+     "id": "EV-0766",
+     "kind": "evidence",
+     "title": "Ministry of Justice subject-access response letter, SAR 260803049 (3 Sep 2026)",
+     "date_display": "3 Sep 2026",
+     "date_sort": "2026-09-03",
+     "status": "HELD PRIVATELY (subject-access material; not published)",
+     "holder": "Ministry of Justice / HMCTS, reply attachment (SAR 260803049)",
+     "page": null
+    },
+    {
+     "id": "EV-0822",
+     "kind": "evidence",
+     "title": "Ministry of Justice FOI 260805002 response (12 Aug 2026), second PDF attached to the same reply",
+     "date_display": "12 Aug 2026",
+     "date_sort": "2026-08-12",
+     "status": "HELD (copy; attachment read)",
+     "holder": "Ministry of Justice / HMCTS, reply attachment (FOI 260805002)",
+     "page": null
+    },
+    {
+     "id": "EV-0163",
+     "kind": "evidence",
+     "title": "Ministry of Justice FOI 260805002 Response",
+     "date_display": "12 August 2026",
+     "date_sort": "2026-08-12",
+     "status": "HELD",
+     "holder": "Ministry of Justice (FOI reference 260805002); Catalogue copy held in the Cedwyn evidence repository",
+     "page": null
+    },
+    {
+     "id": "EV-0762",
+     "kind": "evidence",
+     "title": "Ministry of Justice subject-access clarification letter, SAR 260702090 (3 Aug 2026)",
+     "date_display": "3 Aug 2026",
+     "date_sort": "2026-08-03",
+     "status": "HELD PRIVATELY (subject-access material; not published)",
+     "holder": "Ministry of Justice / HMCTS, reply attachment (SAR 260702090)",
+     "page": null
+    },
+    {
+     "id": "EV-0756",
+     "kind": "evidence",
+     "title": "Ministry of Justice FOI 260607013 response letter (30 Jun 2026): the court proceeding records requested are not held by the department",
+     "date_display": "30 Jun 2026",
+     "date_sort": "2026-06-30",
+     "status": "HELD (copy; attachment read)",
+     "holder": "Ministry of Justice / HMCTS, reply attachment (FOI 260607013)",
+     "page": null
+    },
+    {
+     "id": "EV-0151",
+     "kind": "evidence",
+     "title": "Ministry of Justice Central Correspondence reply, ref. TO130237",
+     "date_display": "27 April 2026",
+     "date_sort": "2026-04-27",
+     "status": "HELD",
+     "holder": "Ministry of Justice Central Correspondence (reference TO130237); Uploaded source copy held in the Cedwyn evidence repository (wiki catalogue ref. GHF-E106-R36-A1)",
+     "page": null
+    },
+    {
+     "id": "EV-0742",
+     "kind": "evidence",
+     "title": "Ministry of Justice FOI 250628005 response letter (attachment, 17 Jul 2025): no information held on the 1988 MP correspondence",
+     "date_display": "17 Jul 2025",
+     "date_sort": "2025-07-17",
+     "status": "HELD (copy; attachment read)",
+     "holder": "Ministry of Justice, reply attachment (FOI 250628005)",
+     "page": null
+    }
+   ]
+  },
+  "archaeology-data-service": {
+   "name": "Archaeology Data Service",
+   "count": 0,
+   "records": []
+  },
+  "blake-morgan": {
+   "name": "Blake Morgan",
+   "count": 0,
+   "records": []
+  },
+  "cadw": {
+   "name": "Cadw",
+   "count": 9,
+   "records": [
+    {
+     "id": "EV-0156",
+     "kind": "evidence",
+     "title": "Welsh Government/Cadw ATISN 27021 response letter",
+     "date_display": "11 June 2026",
+     "date_sort": "2026-06-11",
+     "status": "HELD",
+     "holder": "Welsh Government/Cadw (ATISN 27021); Uploaded source copy held in the Cedwyn evidence repository, wiki catalogue reference GHF-E106-R37-A1",
+     "page": null
+    },
+    {
+     "id": "EV-0751",
+     "kind": "evidence",
+     "title": "GGAT archaeological assessment of land at Great House Farm (Aug 1990), copy supplied by Cadw with the reply of 21 May 2026",
+     "date_display": "21 May 2026",
+     "date_sort": "2026-05-21",
+     "status": "HELD (copy; attachment read)",
+     "holder": "Welsh Government / Cadw, reply attachment",
+     "page": null
+    },
+    {
+     "id": "EV-0731",
+     "kind": "evidence",
+     "title": "Cadw listed building 13431: Former National School and School-house, 2 Lewis Road, Llandough, Grade II, designated 6 April 1989",
+     "date_display": "6 April 1989",
+     "date_sort": "1989-04-06",
+     "status": "HELD (public record)",
+     "holder": "Cadw, Full Report for Listed Buildings, record 13431",
+     "page": null
+    },
+    {
+     "id": "EV-0103",
+     "kind": "evidence",
+     "title": "\"History fight to save farm\": South Wales Echo report on Cadw inspection and spot-listing",
+     "date_display": "3 December 1988",
+     "date_sort": "1988-12-03",
+     "status": "HELD",
+     "holder": "South Wales Echo, 3 December 1988, report by Peter Bibby. Original page number and full issue not verified.",
+     "page": "/research/evidence/ev-0103-echo-history-fight-save-farm/"
+    },
+    {
+     "id": "EV-0096",
+     "kind": "evidence",
+     "title": "Cadw inspection photographs, 29 July 1988, and December 1988 listing decision record",
+     "date_display": "29 July 1988; 3–5 December 1988",
+     "date_sort": "1988-07-29",
+     "status": "PENDING",
+     "holder": "Cadw; Welsh Office paper-file search promised 21 May 2026 not reported. Photographs released under ATISN 27021.",
+     "page": "/research/evidence/ev-0096-cadw-1988-inspection-photographs-listing/"
+    },
+    {
+     "id": "EV-0095",
+     "kind": "evidence",
+     "title": "Cadw farmhouse survey photograph, 29 July 1988 (disclosed 11 June 2026)",
+     "date_display": "29 July 1988",
+     "date_sort": "1988-07-29",
+     "status": "HELD",
+     "holder": "Cadw heritage survey photograph; No archive reference given. Filename refers to Welsh Government ATISN 27021, doc1. Copy held in the Cedwyn evidence repository.",
+     "page": "/research/evidence/ev-0095-cadw-farmhouse-survey-photo-1988/"
+    },
+    {
+     "id": "EV-0094",
+     "kind": "evidence",
+     "title": "Cadw barn survey photograph, 1988 (disclosed 11 June 2026)",
+     "date_display": "29 July 1988",
+     "date_sort": "1988-07-29",
+     "status": "HELD",
+     "holder": "Original: Cadw heritage survey record (per page title); No file reference given. Upload held by the Cedwyn evidence repository; Filename refers to WG ATISN 27021, doc 2.",
+     "page": "/research/evidence/ev-0094-cadw-barn-survey-photo-1988/"
+    },
+    {
+     "id": "EV-0081",
+     "kind": "evidence",
+     "title": "Cadw letter to the responsible Minister concerning spot-listing of Great House Farm (awaited original)",
+     "date_display": "1988",
+     "date_sort": "1988-00-00",
+     "status": "PENDING",
+     "holder": "Not established. Custodian and file reference not yet verified. Bodies to test: Cadw, Welsh Office ministerial correspondence, predecessor department records, later Wales Office or Welsh Government custody; The National Archives and RCAHMW possible referral points.",
+     "page": null
+    },
+    {
+     "id": "MR-0026",
+     "kind": "missing_record",
+     "title": "1988 spot-listing assessment of the farmhouse (Welsh Office / Cadw), with the transfer or destruction docket",
+     "date_display": "1988",
+     "date_sort": "1988",
+     "status": "NOT FOUND",
+     "holder": "Welsh Government / Cadw; Wales Office (successor to the Welsh Office)",
+     "page": "/research/missing-records/#mr-0026"
+    }
+   ]
+  },
+  "crown-prosecution-service": {
+   "name": "Crown Prosecution Service",
+   "count": 0,
+   "records": []
+  },
+  "dcms": {
+   "name": "Department for Culture, Media and Sport (DCMS)",
+   "count": 1,
+   "records": [
+    {
+     "id": "EV-0160",
+     "kind": "evidence",
+     "title": "Department for Culture, Media and Sport response to FOI request FOI2026/06174",
+     "date_display": "22 July 2026",
+     "date_sort": "2026-07-22",
+     "status": "HELD",
+     "holder": "The Cedwyn evidence repository (uploaded source copy); Issuing authority: Department for Culture, Media and Sport, reference FOI2026/06174",
+     "page": null
+    }
+   ]
+  },
+  "hm-land-registry": {
+   "name": "HM Land Registry",
+   "count": 33,
+   "records": [
+    {
+     "id": "EV-0806",
+     "kind": "evidence",
+     "title": "HM Land Registry SAR D260928 response, part 3 of 3 (6 Nov 2026): rights-protected encrypted message",
+     "date_display": "6 Nov 2026",
+     "date_sort": "2026-11-06",
+     "status": "LOCKED (rights-protected message), NOT YET EXTRACTED; held privately",
+     "holder": "HM Land Registry, reply attachment (SAR D260928)",
+     "page": null
+    },
+    {
+     "id": "EV-0805",
+     "kind": "evidence",
+     "title": "HM Land Registry SAR D260928 response, part 2 of 3 (6 Nov 2026): rights-protected encrypted message",
+     "date_display": "6 Nov 2026",
+     "date_sort": "2026-11-06",
+     "status": "LOCKED (rights-protected message), NOT YET EXTRACTED; held privately",
+     "holder": "HM Land Registry, reply attachment (SAR D260928)",
+     "page": null
+    },
+    {
+     "id": "EV-0804",
+     "kind": "evidence",
+     "title": "HM Land Registry SAR D260928 response, part 1 of 3 (6 Nov 2026): rights-protected encrypted message",
+     "date_display": "6 Nov 2026",
+     "date_sort": "2026-11-06",
+     "status": "LOCKED (rights-protected message), NOT YET EXTRACTED; held privately",
+     "holder": "HM Land Registry, reply attachment (SAR D260928)",
+     "page": null
+    },
+    {
+     "id": "EV-0684",
+     "kind": "evidence",
+     "title": "HM Land Registry letter of 4 November 2026 (ref Z084NQV, title WA231076): the statement is in the first-registration application (Form 1E); no alteration or indemnity application to be considered",
+     "date_display": "4 November 2026",
+     "date_sort": "2026-11-04",
+     "status": "HELD",
+     "holder": "HM Land Registry, Wales Office (Assistant Land Registrar); copy in the Cedwyn evidence repository (correspondence file, received through the HM Land Registry document portal)",
+     "page": null
+    },
+    {
+     "id": "EV-0800",
+     "kind": "evidence",
+     "title": "HM Land Registry data-protection team reply on lodging identity evidence for a subject-access request: attached image (Nov 2026)",
+     "date_display": "2 Nov 2026",
+     "date_sort": "2026-11-02",
+     "status": "HELD PRIVATELY (subject-access material; not published), NOT YET EXTRACTED",
+     "holder": "HM Land Registry (Data Protection), reply attachment",
+     "page": null
+    },
+    {
+     "id": "EV-0785",
+     "kind": "evidence",
+     "title": "HM Land Registry independent complaints reviewer letter ICR09026 (template R7, 1 Oct 2026), attached to the replies of 9 and 12 Oct 2026",
+     "date_display": "9 Oct 2026 to 12 Oct 2026 (2 copies)",
+     "date_sort": "2026-10-09",
+     "status": "HELD (copy; attachment read)",
+     "holder": "HM Land Registry (Independent Complaints Reviewer), reply attachment (ICR09026)",
+     "page": null
+    },
+    {
+     "id": "EV-0768",
+     "kind": "evidence",
+     "title": "Letter of 18 Sep 2026 from the office of Stephen Doughty MP forwarding the reply of HM Land Registry's Chief Executive",
+     "date_display": "18 Sep 2026",
+     "date_sort": "2026-09-18",
+     "status": "HELD (copy; attachment read)",
+     "holder": "Member of Parliament, reply attachment",
+     "page": null
+    },
+    {
+     "id": "EV-0171",
+     "kind": "evidence",
+     "title": "HM Land Registry title register for title WA513690 (current register snapshot)",
+     "date_display": "September 2026",
+     "date_sort": "2026-09-00",
+     "status": "HELD",
+     "holder": "HM Land Registry, title number WA513690 (copy held in the Cedwyn evidence repository)",
+     "page": null
+    },
+    {
+     "id": "EV-0170",
+     "kind": "evidence",
+     "title": "HM Land Registry title register for title WA231076",
+     "date_display": "September 2026",
+     "date_sort": "2026-09-00",
+     "status": "HELD",
+     "holder": "HM Land Registry (title number WA231076); PDF copy held in the Cedwyn evidence repository",
+     "page": "/research/evidence/ev-0170-wa231076-title-register-september-2026/"
+    },
+    {
+     "id": "EV-0169",
+     "kind": "evidence",
+     "title": "HM Land Registry title register for WA735527, September 2026 copy",
+     "date_display": "September 2026",
+     "date_sort": "2026-09-00",
+     "status": "HELD",
+     "holder": "HM Land Registry (title number WA735527); Copy held in the Cedwyn evidence repository.",
+     "page": "/research/evidence/ev-0169-wa735527-title-register-september-2026/"
+    },
+    {
+     "id": "EV-0168",
+     "kind": "evidence",
+     "title": "HM Land Registry title plan for title WA513690",
+     "date_display": "September 2026",
+     "date_sort": "2026-09-00",
+     "status": "HELD",
+     "holder": "HM Land Registry, title number WA513690 (title plan). Wiki copy held in the Cedwyn evidence repository as an uploaded PDF.",
+     "page": null
+    },
+    {
+     "id": "EV-0167",
+     "kind": "evidence",
+     "title": "HM Land Registry title plan for title WA231076",
+     "date_display": "September 2026",
+     "date_sort": "2026-09-00",
+     "status": "HELD",
+     "holder": "HM Land Registry, title number WA231076 (record copy, per upload description). Copy held in the Cedwyn evidence repository.",
+     "page": null
+    },
+    {
+     "id": "EV-0166",
+     "kind": "evidence",
+     "title": "HM Land Registry title plan for WA735527 (current copy)",
+     "date_display": "September 2026",
+     "date_sort": "2026-09-00",
+     "status": "HELD",
+     "holder": "HM Land Registry, title number WA735527 (original record); PDF copy held in the Cedwyn evidence repository",
+     "page": null
+    },
+    {
+     "id": "EV-0761",
+     "kind": "evidence",
+     "title": "HM Land Registry letter attached to the notice of 2026-07-30 (\"Correspondence.pdf\"): schedule of first-registration documents, titles WA231076 and WA240304",
+     "date_display": "30 Jul 2026",
+     "date_sort": "2026-07-30",
+     "status": "HELD (copy; attachment read)",
+     "holder": "HM Land Registry, reply attachment",
+     "page": null
+    },
+    {
+     "id": "EV-0161",
+     "kind": "evidence",
+     "title": "HM Land Registry Schedule of First-Registration Documents, WA231076 and WA240304",
+     "date_display": "30 July 2026 (date shown by file title)",
+     "date_sort": "2026-07-30",
+     "status": "HELD",
+     "holder": "HM Land Registry (title numbers WA231076 and WA240304); Copy in the Cedwyn evidence repository",
+     "page": null
+    },
+    {
+     "id": "EV-0158",
+     "kind": "evidence",
+     "title": "HM Land Registry letter ref. N610CGV concerning title WA231076",
+     "date_display": "13 July 2026",
+     "date_sort": "2026-07-13",
+     "status": "HELD",
+     "holder": "The Cedwyn evidence repository (custodian of uploaded copy); HM Land Registry correspondence, reference N610CGV, title number WA231076",
+     "page": null
+    },
+    {
+     "id": "EV-0752",
+     "kind": "evidence",
+     "title": "HM Land Registry letter attached to the notice of 2026-05-25 (\"Correspondence.pdf\"): stage two complaint decision",
+     "date_display": "25 May 2026",
+     "date_sort": "2026-05-25",
+     "status": "HELD (copy; attachment read)",
+     "holder": "HM Land Registry, reply attachment",
+     "page": null
+    },
+    {
+     "id": "EV-0153",
+     "kind": "evidence",
+     "title": "HM Land Registry stage-two complaint decision",
+     "date_display": "25 May 2026 (date shown by file title)",
+     "date_sort": "2026-05-25",
+     "status": "HELD",
+     "holder": "Copy held in the Cedwyn evidence repository (wiki media library). HM Land Registry named as issuing body by file title only; No reference numbers given.",
+     "page": null
+    },
+    {
+     "id": "EV-0750",
+     "kind": "evidence",
+     "title": "HM Land Registry letter attached to the notice of 2026-04-21 (\"Correspondence.pdf\"): stage two complaint acknowledgement",
+     "date_display": "21 Apr 2026",
+     "date_sort": "2026-04-21",
+     "status": "HELD (copy; attachment read)",
+     "holder": "HM Land Registry, reply attachment",
+     "page": null
+    },
+    {
+     "id": "EV-0150",
+     "kind": "evidence",
+     "title": "HM Land Registry stage-two complaint acknowledgement",
+     "date_display": "21 April 2026",
+     "date_sort": "2026-04-21",
+     "status": "HELD",
+     "holder": "The Cedwyn evidence repository; Uploaded PDF titled \"2026-04-21 HMLR stage two acknowledgement\". No HM Land Registry reference number given.",
+     "page": null
+    },
+    {
+     "id": "EV-0749",
+     "kind": "evidence",
+     "title": "HM Land Registry letter attached to the notice of 2026-04-19 (\"Correspondence.pdf\"): stage one complaint decision",
+     "date_display": "19 Apr 2026",
+     "date_sort": "2026-04-19",
+     "status": "HELD (copy; attachment read)",
+     "holder": "HM Land Registry, reply attachment",
+     "page": null
+    },
+    {
+     "id": "EV-0149",
+     "kind": "evidence",
+     "title": "HM Land Registry stage-one complaint decision",
+     "date_display": "19 April 2026",
+     "date_sort": "2026-04-19",
+     "status": "HELD",
+     "holder": "The Cedwyn evidence repository; Copy uploaded as PDF titled \"2026-04-19 HMLR stage one complaint decision\"; Issuing body stated as HM Land Registry. No reference number given.",
+     "page": null
+    },
+    {
+     "id": "EV-0148",
+     "kind": "evidence",
+     "title": "HM Land Registry FOI Response F260213 (13 April 2026)",
+     "date_display": "13 April 2026",
+     "date_sort": "2026-04-13",
+     "status": "HELD",
+     "holder": "HM Land Registry (FOI reference F260213); Uploaded source copy held in the Cedwyn evidence repository (wiki catalogue reference GHF-E106-R35-A1)",
+     "page": null
+    },
+    {
+     "id": "EV-0747",
+     "kind": "evidence",
+     "title": "HM Land Registry letter attached to the notice of 2026-03-23 (\"Correspondence.pdf\"): letter on the registration history of the farm title",
+     "date_display": "23 Mar 2026",
+     "date_sort": "2026-03-23",
+     "status": "HELD (copy; attachment read)",
+     "holder": "HM Land Registry, reply attachment",
+     "page": null
+    },
+    {
+     "id": "EV-0147",
+     "kind": "evidence",
+     "title": "HM Land Registry letter on registration history of Tŷ Mawr Farm",
+     "date_display": "23 March 2026",
+     "date_sort": "2026-03-23",
+     "status": "HELD",
+     "holder": "Copy held in the Cedwyn evidence repository (PDF in wiki media library). Original sent by HM Land Registry. No caseworker, office, title number or reference given.",
+     "page": null
+    },
+    {
+     "id": "EV-0745",
+     "kind": "evidence",
+     "title": "HM Land Registry letter attached to the notice of 2026-02-13 (\"Correspondence.pdf\"): holding letter: paper files being retrieved",
+     "date_display": "13 Feb 2026",
+     "date_sort": "2026-02-13",
+     "status": "HELD (copy; attachment read)",
+     "holder": "HM Land Registry, reply attachment",
+     "page": null
+    },
+    {
+     "id": "EV-0144",
+     "kind": "evidence",
+     "title": "HM Land Registry holding letter: paper files being retrieved",
+     "date_display": "13 February 2026",
+     "date_sort": "2026-02-13",
+     "status": "HELD",
+     "holder": "The Cedwyn evidence repository (custodian/source copy); HM Land Registry stated as sender per file title. No HMLR reference number given.",
+     "page": null
+    },
+    {
+     "id": "EV-0665",
+     "kind": "evidence",
+     "title": "Law Commission and HM Land Registry, Land Registration for the Twenty-First Century (Law Com No 271, 2001), para 14.56 footnote 187 on BP Properties Ltd v Buckler",
+     "date_display": "2001",
+     "date_sort": "2001-07-01",
+     "status": "PUBLISHED",
+     "holder": "Law Com No 271 (2001); archive.org capture of lawcom.gov.uk/docs/lc271.pdf, 2 Feb 2011",
+     "page": null
+    },
+    {
+     "id": "EV-0065",
+     "kind": "evidence",
+     "title": "HM Land Registry first-registration file WA240304 (farmhouse), Items 4, 5, 7, 9, 10 and 11",
+     "date_display": "undated",
+     "date_sort": "1983-02-23",
+     "status": "PENDING",
+     "holder": "HM Land Registry historic/title file; Title number WA240304 (Items 4, 5, 7, 9, 10 and 11)",
+     "page": "/research/evidence/ev-0065-wa240304-farmhouse-first-registration-file/"
+    },
+    {
+     "id": "EV-0060",
+     "kind": "evidence",
+     "title": "Reported HM Land Registry notification received after Mary Williams's death",
+     "date_display": "undated (reportedly received after Mary Williams's death; family record gives death as 26 March 1983)",
+     "date_sort": "1983-00-00",
+     "status": "PENDING",
+     "holder": "Original letter not yet located. Related HM Land Registry titles WA231076 (first-registration application 30 November 1982) and WA240304 (application 23 February 1983).",
+     "page": null
+    },
+    {
+     "id": "MR-0021",
+     "kind": "missing_record",
+     "title": "HM Land Registry notification sent to the occupier after the 1983 registration",
+     "date_display": "1983",
+     "date_sort": "1983",
+     "status": "REQUESTED, PENDING",
+     "holder": "HM Land Registry",
+     "page": "/research/missing-records/#mr-0021"
+    },
+    {
+     "id": "MR-0070",
+     "kind": "missing_record",
+     "title": "HM Land Registry first-registration application and application plan, title WA231076 (1982)",
+     "date_display": "1982",
+     "date_sort": "1982",
+     "status": "SOUGHT",
+     "holder": "HM Land Registry (Wales office)",
+     "page": "/catalogue/?id=MR-0070"
+    },
+    {
+     "id": "MR-0020",
+     "kind": "missing_record",
+     "title": "HM Land Registry Form A13 (list of documents lodged), examiner's requisitions and any inspection note for WA231076 and WA240304 (1982–83)",
+     "date_display": "1982-11-30 to 1983-05",
+     "date_sort": "1982",
+     "status": "REQUESTED, PENDING (SAR due 28 Oct 2026)",
+     "holder": "HM Land Registry",
+     "page": "/research/missing-records/#mr-0020"
+    }
+   ]
+  },
+  "itv-cymru-wales": {
+   "name": "ITV Cymru Wales (formerly HTV Wales)",
+   "count": 0,
+   "records": []
+  },
+  "office-of-stephen-doughty-mp": {
+   "name": "Office of Stephen Doughty MP",
+   "count": 1,
+   "records": [
+    {
+     "id": "EV-0768",
+     "kind": "evidence",
+     "title": "Letter of 18 Sep 2026 from the office of Stephen Doughty MP forwarding the reply of HM Land Registry's Chief Executive",
+     "date_display": "18 Sep 2026",
+     "date_sort": "2026-09-18",
+     "status": "HELD (copy; attachment read)",
+     "holder": "Member of Parliament, reply attachment",
+     "page": null
+    }
+   ]
+  },
+  "persimmon": {
+   "name": "Persimmon",
+   "count": 0,
+   "records": []
+  },
+  "forest-of-cardiff": {
+   "name": "Forest of Cardiff",
+   "count": 4,
+   "records": [
+    {
+     "id": "EV-0217",
+     "kind": "evidence",
+     "title": "Forest of Cardiff accounts to 30 Jun 2006: Sale of Land — Leckwith Road, Llandough £20,000",
+     "date_display": "year to 30 Jun 2006",
+     "date_sort": "2006-06-30",
+     "status": "HELD (public copy)",
+     "holder": "Companies House 02591796 (charity 1002867)",
+     "page": "/research/evidence/ev-0217-forest-of-cardiff-accounts-2006-sale-of-land-leckwith-road/"
+    },
+    {
+     "id": "EV-0139",
+     "kind": "evidence",
+     "title": "Transfer, Forest of Cardiff to Goldsworthy Homes, excision from title WA735527",
+     "date_display": "2005",
+     "date_sort": "2005-00-00",
+     "status": "PENDING",
+     "holder": "HM Land Registry; Title WA735527",
+     "page": "/research/evidence/ev-0139-forest-cardiff-goldsworthy-transfer-excision/"
+    },
+    {
+     "id": "EV-0136",
+     "kind": "evidence",
+     "title": "Transfer of the woodland to Forest of Cardiff (title WA735527), with plan",
+     "date_display": "10 November 1994",
+     "date_sort": "1994-11-10",
+     "status": "PENDING",
+     "holder": "HM Land Registry (WA735527)",
+     "page": "/research/evidence/ev-0136-forest-of-cardiff-woodland-transfer-1994/"
+    },
+    {
+     "id": "MR-0046",
+     "kind": "missing_record",
+     "title": "Transfer of the woodland to Forest of Cardiff (title WA735527), with plan",
+     "date_display": "10 November 1994",
+     "date_sort": "1994",
+     "status": "NOT YET OBTAINED",
+     "holder": "HM Land Registry (WA735527)",
+     "page": "/research/missing-records/#mr-0046"
+    }
+   ]
+  },
+  "hmlr-independent-complaints-reviewer": {
+   "name": "HMLR Independent Complaints Reviewer",
+   "count": 0,
+   "records": []
+  },
+  "ministry-of-defence": {
+   "name": "Ministry of Defence",
+   "count": 2,
+   "records": [
+    {
+     "id": "EV-0680",
+     "kind": "evidence",
+     "title": "Ministry of Defence, Defence Business Services: response to Subject Access Request DPR2026/46503 on any Armed Forces involvement in the 1988 eviction at Tŷ Mawr (Great House Farm), Llandough (no information in scope located)",
+     "date_display": "9 October 2026",
+     "date_sort": "2026-10-09",
+     "status": "HELD (copy held privately; not published)",
+     "holder": "Ministry of Defence, Defence Business Services (DBS), Disclosure Team (Civilian), Tomlinson House, Norcross; reference DPR2026/46503. Source copy: the Cedwyn evidence repository, held privately as subject-access material (artifact GHF-E106-R118-A1).",
+     "page": null
+    },
+    {
+     "id": "EV-0754",
+     "kind": "evidence",
+     "title": "Ministry of Defence FOI2026/09019 response letter (29 May 2026): neither confirm nor deny under s.23(5) for one part; no information held for the rest",
+     "date_display": "29 May 2026",
+     "date_sort": "2026-05-29",
+     "status": "HELD (copy; attachment read)",
+     "holder": "Ministry of Defence, reply attachment (FOI2026/09019)",
+     "page": null
+    }
+   ]
+  },
+  "cotswold-archaeological-trust": {
+   "name": "Cotswold Archaeological Trust",
+   "count": 1,
+   "records": [
+    {
+     "id": "EV-0134",
+     "kind": "evidence",
+     "title": "Cotswold Archaeological Trust letter to National Museum of Wales on Llandough cemetery",
+     "date_display": "4th May 1994 (letter); 28.7.94 (transfer of title)",
+     "date_sort": "1994-05-04",
+     "status": "HELD",
+     "holder": "Wiki media library item 68 (39 pages; Uploaded 22 Sep 2026 without a title or catalogue page). Original custodian not stated.",
+     "page": null
+    }
+   ]
+  },
+  "darwin-gray": {
+   "name": "Darwin Gray",
+   "count": 0,
+   "records": []
+  },
+  "dwr-cymru-welsh-water": {
+   "name": "Dŵr Cymru Welsh Water",
+   "count": 0,
+   "records": []
+  },
+  "hmcts": {
+   "name": "HM Courts & Tribunals Service",
+   "count": 0,
+   "records": []
+  },
+  "linklaters": {
+   "name": "Linklaters",
+   "count": 0,
+   "records": []
+  },
+  "warwick-modern-records-centre": {
+   "name": "Warwick Modern Records Centre",
+   "count": 0,
+   "records": []
+  },
+  "welsh-office-wales-office": {
+   "name": "Welsh Office / Wales Office",
+   "count": 3,
+   "records": [
+    {
+     "id": "EV-0187",
+     "kind": "evidence",
+     "title": "Wales Office FOI Team: acknowledgement of internal review IR/26/16 (re 26FOI 103)",
+     "date_display": "29 September 2026",
+     "date_sort": "2026-09-29",
+     "status": "PENDING",
+     "holder": "Email from the Wales Office Freedom of Information Team, sent from the NIO FOI mailbox. Internal review reference IR/26/16; Original FOI request reference 26FOI 103.",
+     "page": null
+    },
+    {
+     "id": "EV-0178",
+     "kind": "evidence",
+     "title": "Wales Office response to FOI request 26FOI 103",
+     "date_display": "22 September 2026",
+     "date_sort": "2026-09-22",
+     "status": "HELD",
+     "holder": "Issued by the Wales Office (FOI reference 26FOI 103); Copy held in the Cedwyn evidence repository, wiki catalogue reference GHF-E106-R16-A1.",
+     "page": null
+    },
+    {
+     "id": "MR-0026",
+     "kind": "missing_record",
+     "title": "1988 spot-listing assessment of the farmhouse (Welsh Office / Cadw), with the transfer or destruction docket",
+     "date_display": "1988",
+     "date_sort": "1988",
+     "status": "NOT FOUND",
+     "holder": "Welsh Government / Cadw; Wales Office (successor to the Welsh Office)",
+     "page": "/research/missing-records/#mr-0026"
+    }
+   ]
+  },
+  "barry-preservation-society-civic-trust": {
+   "name": "Barry Preservation Society and Civic Trust",
+   "count": 0,
+   "records": []
+  },
+  "bbc-cymru-wales": {
+   "name": "BBC Cymru Wales",
+   "count": 0,
+   "records": []
+  },
+  "bp-archive": {
+   "name": "BP Archive",
+   "count": 0,
+   "records": []
+  },
+  "cardiff-county-court": {
+   "name": "Cardiff County Court",
+   "count": 4,
+   "records": [
+    {
+     "id": "MR-0014",
+     "kind": "missing_record",
+     "title": "Retention or destruction record for the Cardiff County Court files of 1962 and 1974",
+     "date_display": "after 1974",
+     "date_sort": "1974",
+     "status": "NOT FOUND",
+     "holder": "Ministry of Justice / HMCTS",
+     "page": "/research/missing-records/#mr-0014"
+    },
+    {
+     "id": "EV-0041",
+     "kind": "evidence",
+     "title": "Cardiff County Court possession order (farmhouse and garden) — not yet held",
+     "date_display": "11 December 1962",
+     "date_sort": "1962-12-11",
+     "status": "PENDING",
+     "holder": "Holder: not located; County court records",
+     "page": "/research/evidence/ev-0041-cardiff-county-court-possession-order-1962/"
+    },
+    {
+     "id": "MR-0011",
+     "kind": "missing_record",
+     "title": "Cardiff County Court possession order of 11 December 1962 (farmhouse and garden), plaint and plan",
+     "date_display": "1962-12-11",
+     "date_sort": "1962",
+     "status": "NOT FOUND",
+     "holder": "Ministry of Justice / HMCTS (Cardiff County Court); Glamorgan Archives if transferred",
+     "page": "/research/missing-records/#mr-0011"
+    },
+    {
+     "id": "EV-0030",
+     "kind": "evidence",
+     "title": "Glamorgan Archives ACA: Cardiff County Court registers (1953 arrears, 1962 possession, 1963 committal)",
+     "date_display": "1953–1975",
+     "date_sort": "1953-00-00",
+     "status": "PENDING",
+     "holder": "Glamorgan Archives ACA/1/1, /25, /26 (1953), ACA/1/31–33 (1962; Book 6 missing), ACA/1/11 (June 1963), ACA/1/17, /18, /41 (1975), ACA/8/2.",
+     "page": "/research/evidence/ev-0030-cardiff-county-court-registers-aca/"
+    }
+   ]
+  },
+  "cardiff-registration-service": {
+   "name": "Cardiff Registration Service",
+   "count": 0,
+   "records": []
+  },
+  "court-of-appeal": {
+   "name": "Court of Appeal",
+   "count": 3,
+   "records": [
+    {
+     "id": "EV-0080",
+     "kind": "evidence",
+     "title": "Court of Appeal judgment: BP Properties Ltd v Buckler [1987] EWCA Civ 2",
+     "date_display": "31 July 1987",
+     "date_sort": "1987-07-31",
+     "status": "HELD-ONLINE",
+     "holder": "Court of Appeal, BP Properties Ltd v Buckler [1987] EWCA Civ 2; (1988) 55 P&CR 337; [1987] 2 EGLR 168.",
+     "page": "/research/evidence/ev-0080-bp-properties-v-buckler-judgment/"
+    },
+    {
+     "id": "MR-0078",
+     "kind": "missing_record",
+     "title": "Court of Appeal registry papers for the notice of appeal of 30 October 1974",
+     "date_display": "30 October 1974",
+     "date_sort": "1974",
+     "status": "SHOULD EXIST (NOT LOCATED)",
+     "holder": "Civil Appeals Office; The National Archives (J series) — not checked",
+     "page": "/catalogue/?id=MR-0078"
+    },
+    {
+     "id": "EV-0636",
+     "kind": "evidence",
+     "title": "Hong Kong Court of Appeal judgment, paragraphs 54–58, citing BP Properties Ltd v Buckler",
+     "date_display": "Date not shown in the capture",
+     "date_sort": "0000-00-00",
+     "status": "HELD (copy)",
+     "holder": "Court of Appeal of the Hong Kong Special Administrative Region (Cheung JA, Yuen JA, Fung J)",
+     "page": "/research/evidence/ev-0636-hong-kong-court-of-appeal-paras-54-58/"
+    }
+   ]
+  },
+  "debenham-tewson": {
+   "name": "Debenham Tewson",
+   "count": 2,
+   "records": [
+    {
+     "id": "EV-0093",
+     "kind": "evidence",
+     "title": "Estates Gazette: “BP signal Welsh sales” (Ropemaker Properties; Debenham Tewson as agents)",
+     "date_display": "9 July 1988",
+     "date_sort": "1988-07-09",
+     "status": "HELD-ONLINE",
+     "holder": "Estates Gazette, 9 July 1988, online article.",
+     "page": "/research/evidence/ev-0093-estates-gazette-1988-bp-welsh-sales/"
+    },
+    {
+     "id": "EV-0683",
+     "kind": "evidence",
+     "title": "Glamorgan Archives DBDT/123 'Llandough' (Debenham Tewson, Bute Estate collection): 13 item titles, 1901-1963, none naming Great House Farm or Tŷ Mawr",
+     "date_display": "1901-1963",
+     "date_sort": "1901-04-01",
+     "status": "HELD (catalogue only)",
+     "holder": "Glamorgan Archives, fonds DBDT (Debenham Tewson, solicitors, Cardiff, Bute Estate collection), series DBDT/123",
+     "page": null
+    }
+   ]
+  },
+  "european-commission-human-rights-strasbourg": {
+   "name": "European Commission of Human Rights / Strasbourg",
+   "count": 1,
+   "records": [
+    {
+     "id": "EV-0122",
+     "kind": "evidence",
+     "title": "European Commission of Human Rights application 14464/88 and inadmissibility decision",
+     "date_display": "lodged 3 May 1988; registered 12 December 1988; declared inadmissible 14 April 1989",
+     "date_sort": "1989-04-14",
+     "status": "HELD",
+     "holder": "European Court of Human Rights archive; Application 14464/88. Case file reported destroyed under the Court's retention policy.",
+     "page": "/research/evidence/ev-0122-echr-application-14464-88-inadmissibility/"
+    }
+   ]
+  },
+  "european-court-human-rights-echr-archives": {
+   "name": "European Court of Human Rights / ECHR Archives",
+   "count": 0,
+   "records": []
+  },
+  "ggat": {
+   "name": "GGAT",
+   "count": 10,
+   "records": [
+    {
+     "id": "EV-0179",
+     "kind": "evidence",
+     "title": "Enquiry to former GGAT / Heneb about reported March 1983 Neath warehouse fire",
+     "date_display": "24 September 2026",
+     "date_sort": "2026-09-24",
+     "status": "PENDING",
+     "holder": "Original correspondence held by the author (Gmail thread); Existing Wiki catalogue records a thread ID, not given here.",
+     "page": null
+    },
+    {
+     "id": "EV-0751",
+     "kind": "evidence",
+     "title": "GGAT archaeological assessment of land at Great House Farm (Aug 1990), copy supplied by Cadw with the reply of 21 May 2026",
+     "date_display": "21 May 2026",
+     "date_sort": "2026-05-21",
+     "status": "HELD (copy; attachment read)",
+     "holder": "Welsh Government / Cadw, reply attachment",
+     "page": null
+    },
+    {
+     "id": "EV-0131",
+     "kind": "evidence",
+     "title": "GGAT letters on archaeological planning conditions, Great House Farm, Llandough",
+     "date_display": "13 December 1993 and 15th December 1993 (first two letters; remaining pages of the 43-page file not seen)",
+     "date_sort": "1993-12-13",
+     "status": "HELD",
+     "holder": "Wiki media library item 86 (43 pages; Uploaded 22 Sep 2026 without a title or catalogue page). Original custodian not stated.",
+     "page": null
+    },
+    {
+     "id": "EV-0128",
+     "kind": "evidence",
+     "title": "GGAT letter (27 July 1992, page 2 missing) and reserved-matters approval 92/00671/RES",
+     "date_display": "27 July 1992; approval 38 days later",
+     "date_sort": "1992-07-27",
+     "status": "PENDING",
+     "holder": "Holder: GGAT and the Council. Planning reference 92/00671/RES.",
+     "page": "/research/evidence/ev-0128-ggat-letter-reserved-matters-approval/"
+    },
+    {
+     "id": "EV-0126",
+     "kind": "evidence",
+     "title": "Land at Great House Farm, Llandough: An Archaeological Assessment (GGAT, 1990)",
+     "date_display": "August 1990",
+     "date_sort": "1990-08-00",
+     "status": "HELD",
+     "holder": "National Monuments Record of Wales, ref. NMR 6524751; Also identified in the Wales Historic Environment Record.",
+     "page": null
+    },
+    {
+     "id": "MR-0045",
+     "kind": "missing_record",
+     "title": "Land at Great House Farm, Llandough: An Archaeological Assessment (GGAT, 1990)",
+     "date_display": "August 1990",
+     "date_sort": "1990",
+     "status": "NOT YET OBTAINED",
+     "holder": "Not stated",
+     "page": "/research/missing-records/#mr-0045"
+    },
+    {
+     "id": "EV-0058",
+     "kind": "evidence",
+     "title": "GGAT letter or note warning of archaeological sensitivity at Great House Farm",
+     "date_display": "1 October 1982",
+     "date_sort": "1982-10-01",
+     "status": "PENDING",
+     "holder": "GGAT / Heneb (Glamorgan–Gwent Archaeological Trust); Copy served on Cadw on 17 September 2026. No reference numbers given.",
+     "page": null
+    },
+    {
+     "id": "MR-0082",
+     "kind": "missing_record",
+     "title": "GGAT 1989–90 consultee and evaluation file for Great House Farm (incl. 1990 evaluation, S387 file, 1 Oct 1982 letter)",
+     "date_display": "1982–1990",
+     "date_sort": "1982",
+     "status": "SOUGHT",
+     "holder": "Heneb (holds the Glamorgan-Gwent Archaeological Trust records)",
+     "page": "/catalogue/?id=MR-0082"
+    },
+    {
+     "id": "MR-0042",
+     "kind": "missing_record",
+     "title": "GGAT letter or note warning of archaeological sensitivity at Great House Farm",
+     "date_display": "1 October 1982",
+     "date_sort": "1982",
+     "status": "NOT YET OBTAINED",
+     "holder": "GGAT / Heneb (Glamorgan–Gwent Archaeological Trust); Copy served on Cadw on 17 September 2026. No reference numbers given.",
+     "page": "/research/missing-records/#mr-0042"
+    },
+    {
+     "id": "EV-0054",
+     "kind": "evidence",
+     "title": "GGAT and Wales & West Housing Association correspondence on Llandough Roman-villa finds",
+     "date_display": "April 1980",
+     "date_sort": "1980-04-00",
+     "status": "HELD",
+     "holder": "Uploaded copy in the Cedwyn evidence repository. No archive or reference number given; Original holder not stated.",
+     "page": null
+    }
+   ]
+  },
+  "glamorgan-county-council": {
+   "name": "Glamorgan County Council",
+   "count": 2,
+   "records": [
+    {
+     "id": "EV-0831",
+     "kind": "evidence",
+     "title": "Glamorgan County Council Planning Committee minutes, meeting of 19 November 1958 (not yet obtained)",
+     "date_display": "19 November 1958",
+     "date_sort": "1958-11-19",
+     "status": "NOT YET HELD (minutes not obtained or read; not yet asked for)",
+     "holder": "Possible holders: West Glamorgan Archive Service, Glamorgan County Council records GCC (1907–1984, includes minutes; TNA Discovery N14546564); Glamorgan Archives (county council series, not checked here)",
+     "page": null
+    },
+    {
+     "id": "EV-0036",
+     "kind": "evidence",
+     "title": "Western Mail legal notice: Glamorgan County Council acquisition near Cogan Pill (WGR listed as owner)",
+     "date_display": "24 September 1958",
+     "date_sort": "1958-09-24",
+     "status": "PENDING",
+     "holder": "Western Mail 24 Sep 1958 p.9 (British Newspaper Archive).",
+     "page": "/research/evidence/ev-0036-western-mail-1958-gcc-acquisition-notice/"
+    }
+   ]
+  },
+  "goldsworthy-homes": {
+   "name": "Goldsworthy Homes",
+   "count": 1,
+   "records": [
+    {
+     "id": "EV-0139",
+     "kind": "evidence",
+     "title": "Transfer, Forest of Cardiff to Goldsworthy Homes, excision from title WA735527",
+     "date_display": "2005",
+     "date_sort": "2005-00-00",
+     "status": "PENDING",
+     "holder": "HM Land Registry; Title WA735527",
+     "page": "/research/evidence/ev-0139-forest-cardiff-goldsworthy-transfer-excision/"
+    }
+   ]
+  },
+  "high-court": {
+   "name": "High Court",
+   "count": 5,
+   "records": [
+    {
+     "id": "EV-0104",
+     "kind": "evidence",
+     "title": "South Wales Echo, 6 Dec 1988 — Llandough ownership fight ends in Cardiff High Court",
+     "date_display": "Tuesday 6 December 1988",
+     "date_sort": "1988-12-06",
+     "status": "HELD",
+     "holder": "South Wales Echo, held by the British Newspaper Archive (title held 1983–2005); N15 image group, the Cedwyn evidence repository: datro files …_002.png–_006.png (commit 2e514c59); Google Drive Screenshot_20250617-1721xx–172337 series. Image unmatched.",
+     "page": "/research/evidence/ev-0104-south-wales-echo-extract-1988/"
+    },
+    {
+     "id": "EV-0075",
+     "kind": "evidence",
+     "title": "South Wales Echo: High Court judgment for BP (Hollis J, 24 July 1986)",
+     "date_display": "25 July 1986",
+     "date_sort": "1986-07-25",
+     "status": "PENDING",
+     "holder": "South Wales Echo 25 Jul 1986 p.3 (British Newspaper Archive).",
+     "page": "/research/evidence/ev-0075-south-wales-echo-1986-high-court-judgment/"
+    },
+    {
+     "id": "EV-0074",
+     "kind": "evidence",
+     "title": "High Court (QBD Cardiff) Trial and Judgment in BP v Buckler Possession Claim",
+     "date_display": "hearing 10 July 1986; judgment 24 July 1986",
+     "date_sort": "1986-07-24",
+     "status": "PENDING",
+     "holder": "Not located; HMCTS and National Archives searches in progress. No reference numbers given.",
+     "page": "/research/evidence/ev-0074-high-court-trial-judgment-1986/"
+    },
+    {
+     "id": "MR-0024",
+     "kind": "missing_record",
+     "title": "Litigation files for BP Properties Ltd v Buckler, 1986–87 (High Court trial and appeal bundles)",
+     "date_display": "1986–1987",
+     "date_sort": "1986",
+     "status": "NOT YET OBTAINED",
+     "holder": "Ministry of Justice / HMCTS; Linklaters (for BP); the appellant's solicitors' successors",
+     "page": "/research/missing-records/#mr-0024"
+    },
+    {
+     "id": "MR-0008",
+     "kind": "missing_record",
+     "title": "1955 High Court possession order (Order 14), writ of possession and the officer's execution return of 4 July 1955",
+     "date_display": "1955-07-04",
+     "date_sort": "1955",
+     "status": "NOT FOUND",
+     "holder": "High Court (Queen's Bench) records, Ministry of Justice / HMCTS; The National Archives (J series) if transferred",
+     "page": "/research/missing-records/#mr-0008"
+    }
+   ]
+  },
+  "home-office": {
+   "name": "Home Office",
+   "count": 0,
+   "records": []
+  },
+  "house-of-lords": {
+   "name": "House of Lords",
+   "count": 2,
+   "records": [
+    {
+     "id": "EV-0076",
+     "kind": "evidence",
+     "title": "House of Lords petition for leave to appeal: appellate petition and committee papers",
+     "date_display": "1987–88",
+     "date_sort": "1987-00-00",
+     "status": "PENDING",
+     "holder": "The National Archives (internal review CAS-347296-M0V4Y1)",
+     "page": "/research/evidence/ev-0076-house-of-lords-petition-leave-papers/"
+    },
+    {
+     "id": "MR-0077",
+     "kind": "missing_record",
+     "title": "Petition for leave to appeal to the House of Lords, 1987 (Parliamentary Archives HL/PO/JO/10/11/2536 item 19)",
+     "date_display": "1987",
+     "date_sort": "1987",
+     "status": "SOUGHT",
+     "holder": "Parliamentary Archives",
+     "page": "/catalogue/?id=MR-0077"
+    }
+   ]
+  },
+  "ideal-homes-wales": {
+   "name": "Ideal Homes Wales",
+   "count": 2,
+   "records": [
+    {
+     "id": "EV-0135",
+     "kind": "evidence",
+     "title": "Site layout drawing, 20-plot development, Llandough Farm (Ideal Homes Wales)",
+     "date_display": "Drawn MAR 92; Rev. B 'Sub station shown' 9/4/94; Received stamp 23 JUN 1994 (Planning and Development); annotated 'With letter dated 22/6/94 from I.H.W.'",
+     "date_sort": "1994-06-23",
+     "status": "HELD",
+     "holder": "Wiki media library item 79 (1 pages; Uploaded 22 Sep 2026 without a title or catalogue page). Original custodian not stated.",
+     "page": null
+    },
+    {
+     "id": "EV-0133",
+     "kind": "evidence",
+     "title": "Ideal Homes Wales, Llandough Farm – site location map and Village Green planting plan",
+     "date_display": "Received stamp 12 JAN 1994 (Planning and Development); location map bears an earlier Borough planning stamp, partly legible as '3 SEP 199?'",
+     "date_sort": "1994-01-12",
+     "status": "HELD",
+     "holder": "Wiki media library item 85 (13 pages; Uploaded 22 Sep 2026 without a title or catalogue page). Original custodian not stated.",
+     "page": null
+    }
+   ]
+  },
+  "lakeside-and-llandough-development-company": {
+   "name": "Lakeside and Llandough Development Company Ltd",
+   "count": 0,
+   "records": []
+  },
+  "landmark-chambers": {
+   "name": "Landmark Chambers",
+   "count": 0,
+   "records": []
+  },
+  "media-wales-reach-plc": {
+   "name": "Media Wales / Reach plc (South Wales Echo, Western Mail)",
+   "count": 0,
+   "records": []
+  },
+  "npcc": {
+   "name": "National Police Chiefs’ Council (NPCC)",
+   "count": 0,
+   "records": []
+  },
+  "nctso": {
+   "name": "NCTSO",
+   "count": 0,
+   "records": []
+  },
+  "parliamentary-archives": {
+   "name": "Parliamentary Archives",
+   "count": 1,
+   "records": [
+    {
+     "id": "MR-0077",
+     "kind": "missing_record",
+     "title": "Petition for leave to appeal to the House of Lords, 1987 (Parliamentary Archives HL/PO/JO/10/11/2536 item 19)",
+     "date_display": "1987",
+     "date_sort": "1987",
+     "status": "SOUGHT",
+     "holder": "Parliamentary Archives",
+     "page": "/catalogue/?id=MR-0077"
+    }
+   ]
+  },
+  "post-office-limited": {
+   "name": "Post Office Limited",
+   "count": 1,
+   "records": [
+    {
+     "id": "EV-0759",
+     "kind": "evidence",
+     "title": "Post Office Limited FOI2026/00751 response letter (24 Jul 2026)",
+     "date_display": "24 Jul 2026",
+     "date_sort": "2026-07-24",
+     "status": "HELD (copy; attachment read)",
+     "holder": "Post Office Limited, reply attachment (FOI2026/00751)",
+     "page": null
+    }
+   ]
+  },
+  "royal-mail-group": {
+   "name": "Royal Mail Group",
+   "count": 0,
+   "records": []
+  },
+  "senedd-culture-committee": {
+   "name": "Senedd Culture Committee",
+   "count": 0,
+   "records": []
+  },
+  "south-western-brick-and-tile": {
+   "name": "South Western Brick & Tile Company",
+   "count": 0,
+   "records": []
+  },
+  "wales-and-west-housing-association": {
+   "name": "Wales & West Housing Association",
+   "count": 1,
+   "records": [
+    {
+     "id": "EV-0054",
+     "kind": "evidence",
+     "title": "GGAT and Wales & West Housing Association correspondence on Llandough Roman-villa finds",
+     "date_display": "April 1980",
+     "date_sort": "1980-04-00",
+     "status": "HELD",
+     "holder": "Uploaded copy in the Cedwyn evidence repository. No archive or reference number given; Original holder not stated.",
+     "page": null
+    }
+   ]
+  },
+  "defra": {
+   "name": "Defra",
+   "count": 1,
+   "records": [
+    {
+     "id": "EV-0792",
+     "kind": "evidence",
+     "title": "Defra FOI2026/23886 response (21 Oct 2026): 1936-1955 farm records not held; may be held by the Welsh Government",
+     "date_display": "21 Oct 2026",
+     "date_sort": "2026-10-21",
+     "status": "HELD IN GMAIL, NOT YET EXTRACTED (reply text archived; the PDF itself not catalogued)",
+     "holder": "Defra, reply attachment (FOI2026/23886)",
+     "page": null
+    }
+   ]
+  },
+  "northern-ireland-office": {
+   "name": "Northern Ireland Office",
+   "count": 0,
+   "records": []
+  },
+  "government-legal-department": {
+   "name": "Government Legal Department (Bona Vacantia)",
+   "count": 0,
+   "records": []
+  },
+  "historic-england": {
+   "name": "Historic England",
+   "count": 4,
+   "records": [
+    {
+     "id": "EV-0798",
+     "kind": "evidence",
+     "title": "Historic England letter of 12 Jan 2018 transferring the Welsh archaeological-reports microfiche to RCAHMW (redacted), disclosed on reconsideration of ref 26/04323 (27 Oct 2026)",
+     "date_display": "27 Oct 2026",
+     "date_sort": "2026-10-27",
+     "status": "HELD (copy; attachment read)",
+     "holder": "Historic England, reply attachment (26/04323)",
+     "page": null
+    },
+    {
+     "id": "EV-0797",
+     "kind": "evidence",
+     "title": "Historic England archive deaccession statement 233 (decision 25 Jul 2017; redacted), disclosed on reconsideration of ref 26/04323 (27 Oct 2026)",
+     "date_display": "27 Oct 2026",
+     "date_sort": "2026-10-27",
+     "status": "HELD (copy; attachment read)",
+     "holder": "Historic England, reply attachment (26/04323)",
+     "page": null
+    },
+    {
+     "id": "EV-0793",
+     "kind": "evidence",
+     "title": "Historic England internal review procedure (PDF), attached to the replies on ref 26/04323 of 21 and 27 Oct 2026",
+     "date_display": "21 Oct 2026 to 27 Oct 2026 (2 copies)",
+     "date_sort": "2026-10-21",
+     "status": "HELD IN GMAIL, NOT YET EXTRACTED",
+     "holder": "Historic England, reply attachment (26/04323)",
+     "page": null
+    },
+    {
+     "id": "MR-0049",
+     "kind": "missing_record",
+     "title": "Itemised list of the RCHME microfiche section sent from Historic England to RCAHMW on 12 January 2018",
+     "date_display": "2018-01-12",
+     "date_sort": "2018",
+     "status": "NOT HELD (holder states)",
+     "holder": "RCAHMW (receiving body); Historic England",
+     "page": "/research/missing-records/#mr-0049"
+    }
+   ]
+  },
+  "audit-wales": {
+   "name": "Audit Wales",
+   "count": 0,
+   "records": []
+  },
+  "ordnance-survey": {
+   "name": "Ordnance Survey",
+   "count": 8,
+   "records": [
+    {
+     "id": "EV-0811",
+     "kind": "evidence",
+     "title": "Ordnance Survey FOI-26-46 map extract, 1989 edition, supplied with the s.16 advice (6 Nov 2026)",
+     "date_display": "6 Nov 2026",
+     "date_sort": "2026-11-06",
+     "status": "HELD IN GMAIL, NOT YET EXTRACTED",
+     "holder": "Ordnance Survey, reply attachment (FOI-26-46)",
+     "page": null
+    },
+    {
+     "id": "EV-0810",
+     "kind": "evidence",
+     "title": "Ordnance Survey FOI-26-46 map extract, 1977 edition, supplied with the s.16 advice (6 Nov 2026)",
+     "date_display": "6 Nov 2026",
+     "date_sort": "2026-11-06",
+     "status": "HELD IN GMAIL, NOT YET EXTRACTED",
+     "holder": "Ordnance Survey, reply attachment (FOI-26-46)",
+     "page": null
+    },
+    {
+     "id": "EV-0809",
+     "kind": "evidence",
+     "title": "Ordnance Survey FOI-26-46 map extract, 1971 edition, supplied with the s.16 advice (6 Nov 2026)",
+     "date_display": "6 Nov 2026",
+     "date_sort": "2026-11-06",
+     "status": "HELD IN GMAIL, NOT YET EXTRACTED",
+     "holder": "Ordnance Survey, reply attachment (FOI-26-46)",
+     "page": null
+    },
+    {
+     "id": "EV-0808",
+     "kind": "evidence",
+     "title": "Ordnance Survey FOI-26-46 map extract, 1965 edition, supplied with the s.16 advice (6 Nov 2026)",
+     "date_display": "6 Nov 2026",
+     "date_sort": "2026-11-06",
+     "status": "HELD IN GMAIL, NOT YET EXTRACTED",
+     "holder": "Ordnance Survey, reply attachment (FOI-26-46)",
+     "page": null
+    },
+    {
+     "id": "EV-0807",
+     "kind": "evidence",
+     "title": "Ordnance Survey FOI-26-46 map extract, 1947, published 1950 edition, supplied with the s.16 advice (6 Nov 2026)",
+     "date_display": "6 Nov 2026",
+     "date_sort": "2026-11-06",
+     "status": "HELD IN GMAIL, NOT YET EXTRACTED",
+     "holder": "Ordnance Survey, reply attachment (FOI-26-46)",
+     "page": null
+    },
+    {
+     "id": "MR-0019",
+     "kind": "missing_record",
+     "title": "Ordnance Survey revision record for the 1971 change to sheet XLVII.6 at Tŷ Mawr",
+     "date_display": "1971",
+     "date_sort": "1971",
+     "status": "REQUESTED, NO SUBSTANTIVE REPLY",
+     "holder": "Ordnance Survey; The National Archives (OS series)",
+     "page": "/research/missing-records/#mr-0019"
+    },
+    {
+     "id": "EV-0678",
+     "kind": "evidence",
+     "title": "The National Archives OS 35/2505: Ordnance Survey object name book, Glamorgan sheet 47 SW, parishes including Llandough, Cogan and Michaelston-le-Pit (1898-1943), companion to EV-0252",
+     "date_display": "1898-1943",
+     "date_sort": "1898-01-01",
+     "status": "HELD (catalogue only)",
+     "holder": "The National Archives, Kew: OS 35/2505",
+     "page": null
+    },
+    {
+     "id": "EV-0654",
+     "kind": "evidence",
+     "title": "The National Archives OS 26/4046: Ordnance Survey boundary remark book with strip maps, Cogan, Llandough juxta Cardiff, Lavernock and Penarth (1875)",
+     "date_display": "1875",
+     "date_sort": "1875-01-01",
+     "status": "HELD (catalogue only)",
+     "holder": "The National Archives, Kew: OS 26/4046 (Discovery C4928670), NGR ST 1671",
+     "page": null
+    }
+   ]
+  },
+  "valuation-office-agency-hmrc": {
+   "name": "Valuation Office Agency / HMRC",
+   "count": 1,
+   "records": [
+    {
+     "id": "EV-0803",
+     "kind": "evidence",
+     "title": "HMRC / Valuation Office Agency FOI2026/118465 response letter (5 Nov 2026): rating and ownership information held and withheld under FOIA s.44(1)(a) with CRCA 2005 s.23(1)",
+     "date_display": "5 Nov 2026",
+     "date_sort": "2026-11-05",
+     "status": "HELD IN GMAIL, NOT YET EXTRACTED",
+     "holder": "Valuation Office Agency / HMRC, reply attachment (FOI2026/118465)",
+     "page": null
+    }
+   ]
+  },
+  "local-government-association-wlga": {
+   "name": "Local Government Association / WLGA",
+   "count": 0,
+   "records": []
+  },
+  "rics": {
+   "name": "RICS (Royal Institution of Chartered Surveyors)",
+   "count": 0,
+   "records": []
+  },
+  "natural-resources-wales": {
+   "name": "Natural Resources Wales",
+   "count": 0,
+   "records": []
+  },
+  "arts-council-england": {
+   "name": "Arts Council England",
+   "count": 0,
+   "records": []
+  },
+  "church-of-england-archives": {
+   "name": "Church of England archives (Lambeth Palace Library)",
+   "count": 0,
+   "records": []
+  },
+  "hugh-james-loosemores": {
+   "name": "Hugh James / Loosemores (successors to John Loosemore & Co.)",
+   "count": 0,
+   "records": []
+  },
+  "prime-minister-s-office-cabinet-office": {
+   "name": "Prime Minister's Office / Cabinet Office",
+   "count": 0,
+   "records": []
+  },
+  "bt-archives": {
+   "name": "BT Archives",
+   "count": 0,
+   "records": []
+  },
+  "capital-law": {
+   "name": "Capital Law",
+   "count": 0,
+   "records": []
+  },
+  "the-law-society": {
+   "name": "The Law Society",
+   "count": 0,
+   "records": []
+  }
+ }
+}
