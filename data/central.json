@@ -12,7 +12,7 @@
   "page"
  ],
  "match": "institution name (also the name before any bracket, and each part either side of a slash or dash) found in the record title or holder",
- "synced_utc": "2026-11-09T06:44:35Z",
+ "synced_utc": "2026-11-09T22:26:37Z",
  "count": 797,
  "institutions": {
   "vale-of-glamorgan-council": {
@@ -525,7 +525,7 @@
      "title": "East Vale Local Plan (February 1987): buildings on site to be retained",
      "date_display": "February 1987",
      "date_sort": "1987",
-     "status": "NOT YET OBTAINED",
+     "status": "WITHDRAWN: duplicate of EV-0077",
      "holder": "Vale of Glamorgan Council",
      "page": "/research/missing-records/#mr-0044"
     },
@@ -3814,7 +3814,7 @@
      "title": "GGAT letter or note warning of archaeological sensitivity at Great House Farm",
      "date_display": "1 October 1982",
      "date_sort": "1982",
-     "status": "NOT YET OBTAINED",
+     "status": "WITHDRAWN: duplicate of EV-0058",
      "holder": "GGAT / Heneb (Glamorgan–Gwent Archaeological Trust); Copy served on Cadw on 17 September 2026. No reference numbers given.",
      "page": "/research/missing-records/#mr-0042"
     },
@@ -4146,7 +4146,7 @@
      "title": "H. J. Thomas architectural survey and floor plan of the house (RCAHMW / NMR)",
      "date_display": "1974",
      "date_sort": "1974",
-     "status": "NOT YET OBTAINED",
+     "status": "WITHDRAWN: duplicate of EV-0047",
      "holder": "Royal Commission on the Ancient and Historical Monuments of Wales (NMR); NMR 6048941, 6048943, 6048945 (survey/correspondence ref unclear); Order ref RCAHMW RC26-0375.",
      "page": "/research/missing-records/#mr-0040"
     },
@@ -5744,7 +5744,7 @@
      "title": "GGAT letter or note warning of archaeological sensitivity at Great House Farm",
      "date_display": "1 October 1982",
      "date_sort": "1982",
-     "status": "NOT YET OBTAINED",
+     "status": "WITHDRAWN: duplicate of EV-0058",
      "holder": "GGAT / Heneb (Glamorgan–Gwent Archaeological Trust); Copy served on Cadw on 17 September 2026. No reference numbers given.",
      "page": "/research/missing-records/#mr-0042"
     },
@@ -6362,7 +6362,7 @@
      "title": "Transfer of the woodland to Forest of Cardiff (title WA735527), with plan",
      "date_display": "10 November 1994",
      "date_sort": "1994",
-     "status": "NOT YET OBTAINED",
+     "status": "WITHDRAWN: duplicate of EV-0136",
      "holder": "HM Land Registry (WA735527)",
      "page": "/research/missing-records/#mr-0046"
     },
@@ -6482,7 +6482,7 @@
      "title": "Title WA231076 Items 15, 16, 18, 19, 23: 1983–84 registration activity",
      "date_display": "1983–84",
      "date_sort": "1983",
-     "status": "NOT YET OBTAINED",
+     "status": "WITHDRAWN: duplicate of EV-0071",
      "holder": "HM Land Registry historic/title file; Title WA231076, Items 15, 16, 18, 19 and 23",
      "page": "/research/missing-records/#mr-0043"
     },
@@ -6562,7 +6562,7 @@
      "title": "Conveyance and plan, BP Pension Trust to BP Properties (farmhouse and garden)",
      "date_display": "23 May 1975 (item 13 plan is described as dated 23 February 1975)",
      "date_sort": "1975",
-     "status": "NOT YET OBTAINED",
+     "status": "WITHDRAWN: duplicate of EV-0052",
      "holder": "HM Land Registry, title WA240304 (items 1, 12, 13)",
      "page": "/research/missing-records/#mr-0041"
     },
@@ -6652,7 +6652,7 @@
      "title": "Drain agreement and plan between John, Marquis of Bute and James Pelham Stuart Corbett",
      "date_display": "15 May 1924",
      "date_sort": "1924",
-     "status": "NOT YET OBTAINED",
+     "status": "WITHDRAWN: duplicate of EV-0015",
      "holder": "HM Land Registry, WA231076 first-registration file item 2 (also described in woodland register WA735527, charges entry 2)",
      "page": "/research/missing-records/#mr-0037"
     },
@@ -6672,7 +6672,7 @@
      "title": "Bute conveyance of 23 February 1905 referred to on the WA231076 file",
      "date_display": "23 February 1905",
      "date_sort": "1905",
-     "status": "NOT YET OBTAINED",
+     "status": "WITHDRAWN: duplicate of EV-0013",
      "holder": "HM Land Registry, WA231076 title file (document referred to at first registration).",
      "page": "/research/missing-records/#mr-0036"
     }
@@ -6776,7 +6776,7 @@
      "title": "Transfer of the woodland to Forest of Cardiff (title WA735527), with plan",
      "date_display": "10 November 1994",
      "date_sort": "1994",
-     "status": "NOT YET OBTAINED",
+     "status": "WITHDRAWN: duplicate of EV-0136",
      "holder": "HM Land Registry (WA735527)",
      "page": "/research/missing-records/#mr-0046"
     },
@@ -7514,7 +7514,7 @@
      "title": "Land at Great House Farm, Llandough: An Archaeological Assessment (GGAT, 1990)",
      "date_display": "August 1990",
      "date_sort": "1990",
-     "status": "NOT YET OBTAINED",
+     "status": "WITHDRAWN: duplicate of EV-0126",
      "holder": "Not stated",
      "page": "/research/missing-records/#mr-0045"
     },
@@ -7584,7 +7584,7 @@
      "title": "GGAT letter or note warning of archaeological sensitivity at Great House Farm",
      "date_display": "1 October 1982",
      "date_sort": "1982",
-     "status": "NOT YET OBTAINED",
+     "status": "WITHDRAWN: duplicate of EV-0058",
      "holder": "GGAT / Heneb (Glamorgan–Gwent Archaeological Trust); Copy served on Cadw on 17 September 2026. No reference numbers given.",
      "page": "/research/missing-records/#mr-0042"
     },
