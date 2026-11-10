@@ -1,5 +1,13 @@
 # Changelog — Forensic Assessments (Cedwyn webapp 39 of 59)
 
+## [1.3.0] - 2026-11-10
+### Changed
+- Completed a mail and external-reference audit of The National Archives profile through 10 November 2026.
+- Corrected the assessment from “nothing disclosed” to partial disclosure and substantive archival assistance; documented the HMC9/311 physical inspection, Judicial Papers A–C 1–63 release schedules and transfer manifest, National Farm Survey / Agricultural Executive Committee search routes, and the IR 131/4/96 map reference.
+- Recorded the 10 November FOIA section 14(2) refusal as a repeat-request refusal, not a “not held” finding, and separated the unresolved IR 58 field-book location from OS’s ST1673 “Missing at Transfer” Object Name Book.
+- Added third-party references from Glamorgan Archives, Welsh Government, RCAHMW and Ordnance Survey, with explicit source attribution and limits.
+- Updated the institution directory and National Archives activity journal, including the current review and response position.
+
 ## [1.2.0] - 2026-11-03
 ### Added
 - Activity journal at /forensic/journal/ with one page per institution (/forensic/journal/<slug>/, 50 institutions, 994 entries): every reply, request and website change on file, newest first, each with a plain reading and a link to the full email (/email/reference/…) or to the before and after copies of the page (/wayback/…).
