@@ -12,8 +12,8 @@
   "page"
  ],
  "match": "institution name (also the name before any bracket, and each part either side of a slash or dash) found in the record title or holder",
- "synced_utc": "2026-11-09T22:26:37Z",
- "count": 797,
+ "synced_utc": "2026-11-11T06:35:12Z",
+ "count": 804,
  "institutions": {
   "vale-of-glamorgan-council": {
    "name": "Vale of Glamorgan Council",
@@ -1051,7 +1051,7 @@
   },
   "national-library-of-wales": {
    "name": "National Library of Wales",
-   "count": 34,
+   "count": 35,
    "records": [
     {
      "id": "EV-0719",
@@ -1284,6 +1284,16 @@
      "page": null
     },
     {
+     "id": "EV-2057",
+     "kind": "evidence",
+     "title": "Tithe c.1841 measured against today's Leckwith Woods: the ground was Bute land (413 Wood, 31a 3r 16p, Bute in hand); nearest John Williams parcel T266 Wood about 820 m away",
+     "date_display": "c. 1841 (measured Nov 2026)",
+     "date_sort": "1841-00-00",
+     "status": "HELD (index records); measurement approximate",
+     "holder": "National Library of Wales, tithe apportionment index for Llandough, Cogan and Leckwith; OpenStreetMap relation 19390228",
+     "page": null
+    },
+    {
      "id": "EV-0228",
      "kind": "evidence",
      "title": "Llandough Farm and the Rees family, 1841–1910 (a separate farm, recorded for disambiguation)",
@@ -1397,7 +1407,7 @@
   },
   "glamorgan-archives": {
    "name": "Glamorgan Archives",
-   "count": 92,
+   "count": 94,
    "records": [
     {
      "id": "EV-0345",
@@ -1860,6 +1870,16 @@
      "page": null
     },
     {
+     "id": "EV-2055",
+     "kind": "evidence",
+     "title": "Glamorgan Archives DBDT/52/1 (1953): Western Ground Rents, Field 29, Leckwith Moors",
+     "date_display": "1953",
+     "date_sort": "1953-00-00",
+     "status": "PENDING (not seen)",
+     "holder": "Glamorgan Archives, DBDT/52/1",
+     "page": null
+    },
+    {
      "id": "EV-0030",
      "kind": "evidence",
      "title": "Glamorgan Archives ACA: Cardiff County Court registers (1953 arrears, 1962 possession, 1963 committal)",
@@ -2048,6 +2068,16 @@
      "status": "PENDING — view free at Glamorgan Archives.",
      "holder": "Glamorgan Archives, DSA/12/4888 (catalogue description read; document unread).",
      "page": "https://cedwyn.bucklerfamily.estate/research/evidence/ev-0610-llandough-quarry-plant-sale-1925/"
+    },
+    {
+     "id": "EV-2056",
+     "kind": "evidence",
+     "title": "Glamorgan Archives DSA/12/4365 (1925-1936): land at Leckwith (OS parcel 51)",
+     "date_display": "1925-1936",
+     "date_sort": "1925-00-00",
+     "status": "PENDING (not seen)",
+     "holder": "Glamorgan Archives, DSA/12/4365",
+     "page": null
     },
     {
      "id": "EV-0728",
@@ -2559,7 +2589,7 @@
   },
   "national-archives": {
    "name": "The National Archives",
-   "count": 73,
+   "count": 74,
    "records": [
     {
      "id": "EV-0722",
@@ -2879,6 +2909,16 @@
      "date_sort": "1958-11-19",
      "status": "PENDING",
      "holder": "The National Archives, Kew, BD 28/177 (Discovery C2133479)",
+     "page": null
+    },
+    {
+     "id": "EV-2050",
+     "kind": "evidence",
+     "title": "TNA BT 356/6646 (1958): River Ely, Leckwith; proposed diversion by Glamorgan River Board, assent granted (6 maps)",
+     "date_display": "1958",
+     "date_sort": "1958-00-00",
+     "status": "PENDING (file not seen)",
+     "holder": "The National Archives, Kew: BT 356/6646",
      "page": null
     },
     {
@@ -8147,7 +8187,7 @@
   },
   "ordnance-survey": {
    "name": "Ordnance Survey",
-   "count": 13,
+   "count": 16,
    "records": [
     {
      "id": "EV-0811",
@@ -8210,6 +8250,26 @@
      "page": null
     },
     {
+     "id": "EV-2049",
+     "kind": "evidence",
+     "title": "Ordnance Survey 1:10,000 sheet ST 17 SE (1974): the building group labelled “Ty Mawr Farm”",
+     "date_display": "1974",
+     "date_sort": "1974-00-00",
+     "status": "HELD (public online image)",
+     "holder": "Ordnance Survey; image at National Library of Scotland (id 189240600)",
+     "page": null
+    },
+    {
+     "id": "EV-2047",
+     "kind": "evidence",
+     "title": "Ordnance Survey 1:2500 sheet ST1673-ST1773, Ed. AB (surveyed 1953, revised 1969, published 1971): earliest OS sheet found reading “Ty Mawr Farm”",
+     "date_display": "1971 (surveyed 1953, revised 1969)",
+     "date_sort": "1971-00-00",
+     "status": "HELD (public online image)",
+     "holder": "Ordnance Survey; image at National Library of Scotland (id 188701083)",
+     "page": null
+    },
+    {
      "id": "MR-0019",
      "kind": "missing_record",
      "title": "Ordnance Survey revision record for the 1971 change to sheet XLVII.6 at Tŷ Mawr",
@@ -8218,6 +8278,16 @@
      "status": "REQUESTED, NO SUBSTANTIVE REPLY",
      "holder": "Ordnance Survey; The National Archives (OS series)",
      "page": "/research/missing-records/#mr-0019"
+    },
+    {
+     "id": "EV-2048",
+     "kind": "evidence",
+     "title": "Ordnance Survey 1:10,560 sheet ST 17 SE, Ed. A (revised to 1964, published 1965): the farmstead labelled “Ty-mawr”",
+     "date_display": "1965 (revised to 1964)",
+     "date_sort": "1965-00-00",
+     "status": "HELD (public online image)",
+     "holder": "Ordnance Survey; image at National Library of Scotland (id 189240603)",
+     "page": null
     },
     {
      "id": "EV-0678",
