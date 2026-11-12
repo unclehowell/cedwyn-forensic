@@ -1,6 +1,5 @@
 # Changelog — Forensic Assessments (Cedwyn webapp 39 of 59)
 
-
 ## [1.4.0] - 2026-11-12
 ### Changed
 - Updated the RCAHMW and Cadw forensic profiles and activity journals with the published 2015 HER audit assessment, the revised 2025 standards, and Heneb's regional HER coverage policy.
