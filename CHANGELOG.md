@@ -1,5 +1,10 @@
 # Changelog — Forensic Assessments (Cedwyn webapp 39 of 59)
 
+## [1.4.0] - 2026-11-12
+### Changed
+- Updated the RCAHMW and Cadw forensic profiles and activity journals with the published 2015 HER audit assessment, the revised 2025 standards, and Heneb's regional HER coverage policy.
+- Distinguished the 2019–20 GGAT operational annual review from the five-year audit cycle; recorded the separate Cadw and Heneb summary-publication statements without inferring non-completion of later cycles.
+- Kept the institution-wide HER audit-governance record set separate from the RC26-0375 site-specific search.
 ## [1.3.0] - 2026-11-10
 ### Changed
 - Completed a mail and external-reference audit of The National Archives profile through 10 November 2026.
