@@ -86,7 +86,7 @@
 /* Forensic Assessments v1.3.0 — publish the permanent catalogue identity and SemVer on each assessed institution page. */
 (function () {
   "use strict";
-  var match = location.pathname.match(/^\\/forensic\\/([a-z0-9-]+)\\/?$/);
+  var match = location.pathname.match(/^\/forensic\/([a-z0-9-]+)\/?$/);
   if (!match || match[1] === "journal") return;
   var main = document.querySelector("main.faw");
   var kicker = main && main.querySelector(".fa-kicker");
