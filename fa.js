@@ -1,4 +1,4 @@
-/* Forensic Assessments v1.3.0 — directory controls, activity journal and catalogue identity. */
+/* Forensic Assessments v1.4.0 — directory controls, activity journal and catalogue identity. */
 (function () {
   "use strict";
   var input=document.getElementById("fa-q"),clear=document.getElementById("fa-clear"),select=document.getElementById("fa-sort");
@@ -83,7 +83,7 @@
 })();
 
 
-/* Forensic Assessments v1.3.0 — publish the permanent catalogue identity and SemVer on each assessed institution page. */
+/* Forensic Assessments v1.4.0 — publish the permanent catalogue identity and SemVer on each assessed institution page. */
 (function () {
   "use strict";
   var match = location.pathname.match(/^\/forensic\/([a-z0-9-]+)\/?$/);
