@@ -77,7 +77,7 @@ footer.fa-foot{margin-top:34px;padding-top:15px;border-top:1px solid var(--fa-li
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
 @media print{html,body{background:#fff!important;color:#111!important}.fa-tools,.fa-filterbar,.fa-back-top{display:none!important}.fa-glance-panel{display:block}.fa-glance-panel>summary{display:none}.fa-cards li[hidden]{display:flex!important}.fa-cards{display:block}.fa-cards li{break-inside:avoid;box-shadow:none}}
 
-/* v1.3.0: permanent catalogue ID and current SemVer on every published assessment page. */
+/* v1.4.0: permanent catalogue ID and current SemVer on every published assessment page. */
 .fa-catalogue-ref{margin:-2px 0 14px;color:var(--fa-muted);font:600 12px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif;letter-spacing:.01em}
 .fa-catalogue-ref a{font-weight:750}
 .fa-catalogue-ref code{font:650 12px/1.4 ui-monospace,SFMono-Regular,Consolas,monospace;color:var(--fa-ink);background:var(--fa-surface-2);padding:2px 5px;border-radius:4px}
