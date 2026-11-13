@@ -1,4 +1,4 @@
-/* Forensic Assessments v1.1.0 — directory search, filters and sorting. */
+/* Forensic Assessments v1.3.0 — directory controls, activity journal and catalogue identity. */
 (function () {
   "use strict";
   var input=document.getElementById("fa-q"),clear=document.getElementById("fa-clear"),select=document.getElementById("fa-sort");
@@ -80,4 +80,39 @@
     var st=d.querySelector("head style");if(st&&!document.getElementById("fj-css")){var c=document.createElement("style");c.id="fj-css";c.textContent=st.textContent;document.head.appendChild(c);}
     while(s.firstChild)box.appendChild(s.firstChild);
   }).catch(function(){});
+})();
+
+
+/* Forensic Assessments v1.3.0 — publish the permanent catalogue identity and SemVer on each assessed institution page. */
+(function () {
+  "use strict";
+  var match = location.pathname.match(/^\\/forensic\\/([a-z0-9-]+)\\/?$/);
+  if (!match || match[1] === "journal") return;
+  var main = document.querySelector("main.faw");
+  var kicker = main && main.querySelector(".fa-kicker");
+  if (!kicker || document.getElementById("fa-catalogue-ref")) return;
+  fetch("/forensic/data.json", { credentials: "same-origin", cache: "no-cache" })
+    .then(function (response) { if (!response.ok) throw new Error("Directory unavailable"); return response.json(); })
+    .then(function (directory) {
+      var record = (directory.institutions || []).filter(function (item) {
+        return item.slug === match[1] && item.kind === "assessed";
+      })[0];
+      if (!record || !record.catalogue_id || !record.version) return;
+      var line = document.createElement("p");
+      line.id = "fa-catalogue-ref";
+      line.className = "fa-catalogue-ref";
+      var label = document.createElement("span");
+      label.textContent = "Catalogue record: ";
+      line.appendChild(label);
+      var link = document.createElement("a");
+      link.href = "/catalogue/?id=" + encodeURIComponent(record.catalogue_id);
+      link.textContent = record.catalogue_id;
+      line.appendChild(link);
+      line.appendChild(document.createTextNode(" · Semantic version "));
+      var version = document.createElement("code");
+      version.textContent = "v" + record.version;
+      line.appendChild(version);
+      kicker.insertAdjacentElement("afterend", line);
+    })
+    .catch(function () { /* Keep the report readable if the directory cannot be fetched. */ });
 })();
