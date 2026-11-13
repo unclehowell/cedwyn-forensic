@@ -1,7 +1,7 @@
 {
  "schema": "cedwyn-forensic/1",
  "version": "1.0.0",
- "updated": "2026-11-01",
+ "updated": "2026-11-13",
  "slot": 39,
  "of": 59,
  "institutions": [
@@ -18,7 +18,10 @@
    "next_date": "2026-11-20",
    "new_since_assessment": 17,
    "verdict": "As at 17 October 2026 the material reviewed does not establish Council-wide wrongdoing.",
-   "liability_indicators_our_reading": "some"
+   "liability_indicators_our_reading": "some",
+   "catalogue_id": "FA-0001",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0001"
   },
   {
    "slug": "western-ground-rents",
@@ -33,7 +36,10 @@
    "next_date": "2026-11-12",
    "new_since_assessment": 17,
    "verdict": "As at 14 October 2026, the material reviewed does not establish dishonesty or misconduct by WGR.",
-   "liability_indicators_our_reading": "none"
+   "liability_indicators_our_reading": "none",
+   "catalogue_id": "FA-0002",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0002"
   },
   {
    "slug": "south-wales-police",
@@ -48,7 +54,10 @@
    "next_date": null,
    "new_since_assessment": 16,
    "verdict": "As at 10-10-2026, the material reviewed does not establish policing misconduct.",
-   "liability_indicators_our_reading": "strong"
+   "liability_indicators_our_reading": "strong",
+   "catalogue_id": "FA-0003",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0003"
   },
   {
    "slug": "mountjoy-ltd",
@@ -63,7 +72,10 @@
    "next_date": "2026-11-12",
    "new_since_assessment": 14,
    "verdict": "As at 14 October 2026, nothing reviewed establishes wrongdoing by Mountjoy Ltd.",
-   "liability_indicators_our_reading": "none"
+   "liability_indicators_our_reading": "none",
+   "catalogue_id": "FA-0004",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0004"
   },
   {
    "slug": "national-library-of-wales",
@@ -78,7 +90,10 @@
    "next_date": "2026-11-13",
    "new_since_assessment": 14,
    "verdict": "As at 10-10-2026, the material reviewed does not establish wrongdoing by the National Library of Wales.",
-   "liability_indicators_our_reading": "strong"
+   "liability_indicators_our_reading": "strong",
+   "catalogue_id": "FA-0005",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0005"
   },
   {
    "slug": "glamorgan-archives",
@@ -93,7 +108,10 @@
    "next_date": "2026-11-16",
    "new_since_assessment": 10,
    "verdict": "As at 10-10-2026, the material reviewed does not establish archival misconduct.",
-   "liability_indicators_our_reading": "strong"
+   "liability_indicators_our_reading": "strong",
+   "catalogue_id": "FA-0006",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0006"
   },
   {
    "slug": "llandough-community-council",
@@ -108,13 +126,16 @@
    "next_date": null,
    "new_since_assessment": 10,
    "verdict": "No adverse institutional finding is established.",
-   "liability_indicators_our_reading": "some"
+   "liability_indicators_our_reading": "some",
+   "catalogue_id": "FA-0007",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0007"
   },
   {
    "slug": "national-archives",
    "name": "The National Archives",
    "kind": "assessed",
-   "version": "1.1.0",
+   "version": "1.3.0",
    "earlier_version": "1.0.0",
    "earlier_published": "2026-10-18",
    "status": "Replied, nothing disclosed",
@@ -123,7 +144,10 @@
    "next_date": "2026-11-12",
    "new_since_assessment": 10,
    "verdict": "As at 10-10-2026, the material reviewed does not establish wrongdoing by The National Archives.",
-   "liability_indicators_our_reading": "strong"
+   "liability_indicators_our_reading": "strong",
+   "catalogue_id": "FA-0008",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0008"
   },
   {
    "slug": "amgueddfa-cymru-museum-wales",
@@ -138,7 +162,10 @@
    "next_date": null,
    "new_since_assessment": 7,
    "verdict": "As at 10-10-2026, the material reviewed does not establish institution-specific wrongdoing.",
-   "liability_indicators_our_reading": "strong"
+   "liability_indicators_our_reading": "strong",
+   "catalogue_id": "FA-0009",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0009"
   },
   {
    "slug": "bp-properties-bp-pension-trust",
@@ -153,7 +180,10 @@
    "next_date": "2026-11-07",
    "new_since_assessment": 7,
    "verdict": "As at 14 October 2026, the material reviewed does not establish dishonesty or misconduct by either BP entity.",
-   "liability_indicators_our_reading": "some"
+   "liability_indicators_our_reading": "some",
+   "catalogue_id": "FA-0010",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0010"
   },
   {
    "slug": "heneb",
@@ -168,7 +198,10 @@
    "next_date": null,
    "new_since_assessment": 7,
    "verdict": "The surviving material currently identified does not establish what the Commission received or that it would have reached a different decision.",
-   "liability_indicators_our_reading": "strong"
+   "liability_indicators_our_reading": "strong",
+   "catalogue_id": "FA-0011",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0011"
   },
   {
    "slug": "ico",
@@ -183,7 +216,10 @@
    "next_date": null,
    "new_since_assessment": 6,
    "verdict": "As at 14 October 2026, the material reviewed does not establish wrongdoing by the ICO.",
-   "liability_indicators_our_reading": "none"
+   "liability_indicators_our_reading": "none",
+   "catalogue_id": "FA-0012",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0012"
   },
   {
    "slug": "rcahmw",
@@ -198,7 +234,10 @@
    "next_date": null,
    "new_since_assessment": 6,
    "verdict": "As at 10-10-2026, the material reviewed does not establish wrongdoing by RCAHMW.",
-   "liability_indicators_our_reading": "some"
+   "liability_indicators_our_reading": "some",
+   "catalogue_id": "FA-0013",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0013"
   },
   {
    "slug": "welsh-government",
@@ -213,7 +252,10 @@
    "next_date": "2026-11-06",
    "new_since_assessment": 6,
    "verdict": "As at 10-10-2026, the material reviewed does not establish Welsh Government-wide wrongdoing.",
-   "liability_indicators_our_reading": "strong"
+   "liability_indicators_our_reading": "strong",
+   "catalogue_id": "FA-0014",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0014"
   },
   {
    "slug": "bute-estate",
@@ -228,7 +270,10 @@
    "next_date": "2026-11-06",
    "new_since_assessment": 5,
    "verdict": "As at 14 October 2026, the material reviewed does not establish wrongdoing by the Bute Estate.",
-   "liability_indicators_our_reading": "none"
+   "liability_indicators_our_reading": "none",
+   "catalogue_id": "FA-0015",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0015"
   },
   {
    "slug": "companies-house",
@@ -243,7 +288,10 @@
    "next_date": "2026-11-12",
    "new_since_assessment": 5,
    "verdict": "As at 10-10-2026, the material reviewed does not establish wrongdoing by Companies House.",
-   "liability_indicators_our_reading": "none"
+   "liability_indicators_our_reading": "none",
+   "catalogue_id": "FA-0016",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0016"
   },
   {
    "slug": "cardiff-city-council",
@@ -258,7 +306,10 @@
    "next_date": null,
    "new_since_assessment": 4,
    "verdict": "As at 14 October 2026, the material reviewed does not establish wrongdoing.",
-   "liability_indicators_our_reading": "none"
+   "liability_indicators_our_reading": "none",
+   "catalogue_id": "FA-0017",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0017"
   },
   {
    "slug": "ministry-of-justice",
@@ -273,7 +324,10 @@
    "next_date": null,
    "new_since_assessment": 4,
    "verdict": "As at 10-10-2026, the material reviewed does not establish wrongdoing by the Ministry of Justice.",
-   "liability_indicators_our_reading": "some"
+   "liability_indicators_our_reading": "some",
+   "catalogue_id": "FA-0018",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0018"
   },
   {
    "slug": "archaeology-data-service",
@@ -288,7 +342,10 @@
    "next_date": null,
    "new_since_assessment": 3,
    "verdict": "As at 10-10-2026, the material reviewed does not establish wrongdoing by the Archaeology Data Service.",
-   "liability_indicators_our_reading": "none"
+   "liability_indicators_our_reading": "none",
+   "catalogue_id": "FA-0019",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0019"
   },
   {
    "slug": "blake-morgan",
@@ -303,7 +360,10 @@
    "next_date": null,
    "new_since_assessment": 3,
    "verdict": "As at 14 October 2026, no reply from the firm is recorded in the reply register and nothing establishes wrongdoing.",
-   "liability_indicators_our_reading": "some"
+   "liability_indicators_our_reading": "some",
+   "catalogue_id": "FA-0020",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0020"
   },
   {
    "slug": "cadw",
@@ -318,7 +378,10 @@
    "next_date": "2026-11-16",
    "new_since_assessment": 3,
    "verdict": "The evidence page states a copy was served on Cadw in September 2026; that does not establish Cadw received or considered it in 1982.",
-   "liability_indicators_our_reading": "strong"
+   "liability_indicators_our_reading": "strong",
+   "catalogue_id": "FA-0021",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0021"
   },
   {
    "slug": "crown-prosecution-service",
@@ -333,7 +396,10 @@
    "next_date": "2026-11-18",
    "new_since_assessment": 3,
    "verdict": "As at 10-10-2026, the material reviewed does not establish CPS misconduct or a criminal-law failure.",
-   "liability_indicators_our_reading": "some"
+   "liability_indicators_our_reading": "some",
+   "catalogue_id": "FA-0022",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0022"
   },
   {
    "slug": "dcms",
@@ -348,7 +414,10 @@
    "next_date": "2026-11-18",
    "new_since_assessment": 3,
    "verdict": "As at 14 October 2026, the material reviewed does not establish wrongdoing by DCMS.",
-   "liability_indicators_our_reading": "none"
+   "liability_indicators_our_reading": "none",
+   "catalogue_id": "FA-0023",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0023"
   },
   {
    "slug": "hm-land-registry",
@@ -363,13 +432,16 @@
    "next_date": "2026-11-17",
    "new_since_assessment": 3,
    "verdict": "the material reviewed has not established dishonesty, concealment or government involvement.",
-   "liability_indicators_our_reading": "none"
+   "liability_indicators_our_reading": "none",
+   "catalogue_id": "FA-0024",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0024"
   },
   {
    "slug": "itv-cymru-wales",
    "name": "ITV Cymru Wales (formerly HTV Wales)",
    "kind": "assessed",
-   "version": "1.1.0",
+   "version": "1.2.0",
    "earlier_version": "1.0.1",
    "earlier_published": "2026-10-20",
    "status": "Asked for clarification or fee",
@@ -378,7 +450,10 @@
    "next_date": null,
    "new_since_assessment": 3,
    "verdict": "No wrongdoing by ITV is established.",
-   "liability_indicators_our_reading": "none"
+   "liability_indicators_our_reading": "none",
+   "catalogue_id": "FA-0025",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0025"
   },
   {
    "slug": "office-of-stephen-doughty-mp",
@@ -393,7 +468,10 @@
    "next_date": null,
    "new_since_assessment": 3,
    "verdict": "As at 14 October 2026, the material reviewed does not establish wrongdoing by the office.",
-   "liability_indicators_our_reading": "none"
+   "liability_indicators_our_reading": "none",
+   "catalogue_id": "FA-0026",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0026"
   },
   {
    "slug": "persimmon",
@@ -408,7 +486,10 @@
    "next_date": null,
    "new_since_assessment": 3,
    "verdict": "As at 14 October 2026, nothing reviewed establishes wrongdoing by Persimmon.",
-   "liability_indicators_our_reading": "none"
+   "liability_indicators_our_reading": "none",
+   "catalogue_id": "FA-0027",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0027"
   },
   {
    "slug": "forest-of-cardiff",
@@ -423,7 +504,10 @@
    "next_date": null,
    "new_since_assessment": 2,
    "verdict": "As at 10-10-2026, the material reviewed does not establish wrongdoing by Forest of Cardiff.",
-   "liability_indicators_our_reading": "some"
+   "liability_indicators_our_reading": "some",
+   "catalogue_id": "FA-0028",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0028"
   },
   {
    "slug": "hmlr-independent-complaints-reviewer",
@@ -438,7 +522,10 @@
    "next_date": null,
    "new_since_assessment": 2,
    "verdict": "As at 10-10-2026, no wrongdoing by the Independent Complaints Reviewer is suggested or established in the material reviewed.",
-   "liability_indicators_our_reading": "none"
+   "liability_indicators_our_reading": "none",
+   "catalogue_id": "FA-0029",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0029"
   },
   {
    "slug": "ministry-of-defence",
@@ -453,7 +540,10 @@
    "next_date": "2026-11-09",
    "new_since_assessment": 2,
    "verdict": "As at 10-10-2026, the material reviewed does not establish Ministry of Defence wrongdoing or an operative role in the historic events.",
-   "liability_indicators_our_reading": "none"
+   "liability_indicators_our_reading": "none",
+   "catalogue_id": "FA-0030",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0030"
   },
   {
    "slug": "cotswold-archaeological-trust",
@@ -468,7 +558,10 @@
    "next_date": "2026-11-16",
    "new_since_assessment": 1,
    "verdict": "As at 10-10-2026, the material reviewed does not establish personal or institutional negligence or dishonesty.",
-   "liability_indicators_our_reading": "none"
+   "liability_indicators_our_reading": "none",
+   "catalogue_id": "FA-0031",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0031"
   },
   {
    "slug": "darwin-gray",
@@ -483,7 +576,10 @@
    "next_date": null,
    "new_since_assessment": 1,
    "verdict": "As at 14 October 2026, no reply from the firm is recorded in the reply register and nothing establishes wrongdoing.",
-   "liability_indicators_our_reading": "none"
+   "liability_indicators_our_reading": "none",
+   "catalogue_id": "FA-0032",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0032"
   },
   {
    "slug": "dwr-cymru-welsh-water",
@@ -498,7 +594,10 @@
    "next_date": null,
    "new_since_assessment": 1,
    "verdict": "As at 14 October 2026, the material reviewed does not establish wrongdoing by Dŵr Cymru Welsh Water.",
-   "liability_indicators_our_reading": "some"
+   "liability_indicators_our_reading": "some",
+   "catalogue_id": "FA-0033",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0033"
   },
   {
    "slug": "hmcts",
@@ -513,7 +612,10 @@
    "next_date": null,
    "new_since_assessment": 1,
    "verdict": "As at 10-10-2026, the material reviewed does not establish misconduct by HMCTS.",
-   "liability_indicators_our_reading": "some"
+   "liability_indicators_our_reading": "some",
+   "catalogue_id": "FA-0034",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0034"
   },
   {
    "slug": "linklaters",
@@ -528,7 +630,10 @@
    "next_date": null,
    "new_since_assessment": 1,
    "verdict": "As at 10-10-2026, the material reviewed does not establish dishonesty or professional misconduct by the firm.",
-   "liability_indicators_our_reading": "none"
+   "liability_indicators_our_reading": "none",
+   "catalogue_id": "FA-0035",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0035"
   },
   {
    "slug": "warwick-modern-records-centre",
@@ -543,7 +648,10 @@
    "next_date": null,
    "new_since_assessment": 1,
    "verdict": "As at 10-10-2026, the material reviewed does not establish archive wrongdoing.",
-   "liability_indicators_our_reading": "none"
+   "liability_indicators_our_reading": "none",
+   "catalogue_id": "FA-0036",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0036"
   },
   {
    "slug": "welsh-office-wales-office",
@@ -558,7 +666,10 @@
    "next_date": null,
    "new_since_assessment": 1,
    "verdict": "As at 10-10-2026, the material reviewed does not establish wrongdoing by the Wales Office.",
-   "liability_indicators_our_reading": "some"
+   "liability_indicators_our_reading": "some",
+   "catalogue_id": "FA-0037",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0037"
   },
   {
    "slug": "barry-preservation-society-civic-trust",
@@ -573,7 +684,10 @@
    "next_date": null,
    "new_since_assessment": 0,
    "verdict": "No adverse institutional finding is established.",
-   "liability_indicators_our_reading": "none"
+   "liability_indicators_our_reading": "none",
+   "catalogue_id": "FA-0038",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0038"
   },
   {
    "slug": "bbc-cymru-wales",
@@ -588,7 +702,10 @@
    "next_date": null,
    "new_since_assessment": 0,
    "verdict": "As at 14 October 2026, no BBC response is recorded and no wrongdoing is established.",
-   "liability_indicators_our_reading": "none"
+   "liability_indicators_our_reading": "none",
+   "catalogue_id": "FA-0039",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0039"
   },
   {
    "slug": "bp-archive",
@@ -603,7 +720,10 @@
    "next_date": null,
    "new_since_assessment": 0,
    "verdict": "As at 14 October 2026, no reply from the BP Archive is recorded in the reply register and nothing establishes wrongdoing.",
-   "liability_indicators_our_reading": "none"
+   "liability_indicators_our_reading": "none",
+   "catalogue_id": "FA-0040",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0040"
   },
   {
    "slug": "cardiff-county-court",
@@ -618,7 +738,10 @@
    "next_date": null,
    "new_since_assessment": 0,
    "verdict": "As at 10-10-2026, the material reviewed does not establish judicial wrongdoing in the proceedings reviewed.",
-   "liability_indicators_our_reading": "none"
+   "liability_indicators_our_reading": "none",
+   "catalogue_id": "FA-0041",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0041"
   },
   {
    "slug": "cardiff-registration-service",
@@ -633,7 +756,10 @@
    "next_date": null,
    "new_since_assessment": 0,
    "verdict": "No adverse finding is established.",
-   "liability_indicators_our_reading": "none"
+   "liability_indicators_our_reading": "none",
+   "catalogue_id": "FA-0042",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0042"
   },
   {
    "slug": "court-of-appeal",
@@ -648,7 +774,10 @@
    "next_date": null,
    "new_since_assessment": 0,
    "verdict": "As at 10-10-2026, the material reviewed does not establish judicial wrongdoing in relation to the proceedings reviewed.",
-   "liability_indicators_our_reading": "none"
+   "liability_indicators_our_reading": "none",
+   "catalogue_id": "FA-0043",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0043"
   },
   {
    "slug": "debenham-tewson",
@@ -663,7 +792,10 @@
    "next_date": null,
    "new_since_assessment": 0,
    "verdict": "As at 10-10-2026, the material reviewed does not establish wrongdoing by the actor under review.",
-   "liability_indicators_our_reading": "none"
+   "liability_indicators_our_reading": "none",
+   "catalogue_id": "FA-0044",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0044"
   },
   {
    "slug": "european-commission-human-rights-strasbourg",
@@ -678,7 +810,10 @@
    "next_date": null,
    "new_since_assessment": 0,
    "verdict": "As at 10-10-2026, the material reviewed does not establish misconduct by the Commission.",
-   "liability_indicators_our_reading": "none"
+   "liability_indicators_our_reading": "none",
+   "catalogue_id": "FA-0045",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0045"
   },
   {
    "slug": "european-court-human-rights-echr-archives",
@@ -693,7 +828,10 @@
    "next_date": null,
    "new_since_assessment": 0,
    "verdict": "As at 10-10-2026, the material reviewed does not establish archival wrongdoing.",
-   "liability_indicators_our_reading": "none"
+   "liability_indicators_our_reading": "none",
+   "catalogue_id": "FA-0046",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0046"
   },
   {
    "slug": "ggat",
@@ -708,7 +846,10 @@
    "next_date": null,
    "new_since_assessment": 0,
    "verdict": "A placeholder records an evidence gap; it does not establish the letter’s contents or misconduct.",
-   "liability_indicators_our_reading": "none"
+   "liability_indicators_our_reading": "none",
+   "catalogue_id": "FA-0047",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0047"
   },
   {
    "slug": "glamorgan-county-council",
@@ -723,7 +864,10 @@
    "next_date": null,
    "new_since_assessment": 0,
    "verdict": "As at 14 October 2026, the material reviewed does not establish wrongdoing.",
-   "liability_indicators_our_reading": "none"
+   "liability_indicators_our_reading": "none",
+   "catalogue_id": "FA-0048",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0048"
   },
   {
    "slug": "goldsworthy-homes",
@@ -738,7 +882,10 @@
    "next_date": null,
    "new_since_assessment": 0,
    "verdict": "As at 10-10-2026, the material reviewed does not establish wrongdoing by Goldsworthy Homes.",
-   "liability_indicators_our_reading": "none"
+   "liability_indicators_our_reading": "none",
+   "catalogue_id": "FA-0049",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0049"
   },
   {
    "slug": "high-court",
@@ -753,7 +900,10 @@
    "next_date": null,
    "new_since_assessment": 0,
    "verdict": "As at 10-10-2026, the material reviewed does not establish judicial wrongdoing in relation to the proceedings reviewed.",
-   "liability_indicators_our_reading": "none"
+   "liability_indicators_our_reading": "none",
+   "catalogue_id": "FA-0050",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0050"
   },
   {
    "slug": "home-office",
@@ -768,7 +918,10 @@
    "next_date": null,
    "new_since_assessment": 0,
    "verdict": "As at 10-10-2026, the material reviewed does not establish Home Office wrongdoing or an operative role in the historic events.",
-   "liability_indicators_our_reading": "none"
+   "liability_indicators_our_reading": "none",
+   "catalogue_id": "FA-0051",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0051"
   },
   {
    "slug": "house-of-lords",
@@ -783,7 +936,10 @@
    "next_date": null,
    "new_since_assessment": 0,
    "verdict": "As at 10-10-2026, the material reviewed does not establish institutional wrongdoing.",
-   "liability_indicators_our_reading": "none"
+   "liability_indicators_our_reading": "none",
+   "catalogue_id": "FA-0052",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0052"
   },
   {
    "slug": "ideal-homes-wales",
@@ -798,7 +954,10 @@
    "next_date": null,
    "new_since_assessment": 0,
    "verdict": "As at 10-10-2026, the material reviewed does not establish wrongdoing by Ideal Homes Wales.",
-   "liability_indicators_our_reading": "none"
+   "liability_indicators_our_reading": "none",
+   "catalogue_id": "FA-0053",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0053"
   },
   {
    "slug": "lakeside-and-llandough-development-company",
@@ -813,7 +972,10 @@
    "next_date": null,
    "new_since_assessment": 0,
    "verdict": "As at 14 October 2026, the material reviewed does not establish wrongdoing by the company.",
-   "liability_indicators_our_reading": "none"
+   "liability_indicators_our_reading": "none",
+   "catalogue_id": "FA-0054",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0054"
   },
   {
    "slug": "landmark-chambers",
@@ -828,7 +990,10 @@
    "next_date": null,
    "new_since_assessment": 0,
    "verdict": "As at 10-10-2026, the material reviewed does not establish historic involvement or wrongdoing by this actor.",
-   "liability_indicators_our_reading": "none"
+   "liability_indicators_our_reading": "none",
+   "catalogue_id": "FA-0055",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0055"
   },
   {
    "slug": "media-wales-reach-plc",
@@ -843,7 +1008,10 @@
    "next_date": null,
    "new_since_assessment": 0,
    "verdict": "As at 14 October 2026, the material reviewed does not establish wrongdoing by the publisher.",
-   "liability_indicators_our_reading": "none"
+   "liability_indicators_our_reading": "none",
+   "catalogue_id": "FA-0056",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0056"
   },
   {
    "slug": "npcc",
@@ -858,7 +1026,10 @@
    "next_date": null,
    "new_since_assessment": 0,
    "verdict": "The NPCC’s present-day searches and decisions are now documented by primary-source links.",
-   "liability_indicators_our_reading": "none"
+   "liability_indicators_our_reading": "none",
+   "catalogue_id": "FA-0057",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0057"
   },
   {
    "slug": "nctso",
@@ -873,7 +1044,10 @@
    "next_date": null,
    "new_since_assessment": 0,
    "verdict": "No NCTSO wrongdoing or operative historical role is established.",
-   "liability_indicators_our_reading": "none"
+   "liability_indicators_our_reading": "none",
+   "catalogue_id": "FA-0058",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0058"
   },
   {
    "slug": "parliamentary-archives",
@@ -888,7 +1062,10 @@
    "next_date": null,
    "new_since_assessment": 0,
    "verdict": "As at 14 October 2026, no reply from the Parliamentary Archives is recorded in the reply register and nothing establishes wrongdoing.",
-   "liability_indicators_our_reading": "none"
+   "liability_indicators_our_reading": "none",
+   "catalogue_id": "FA-0059",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0059"
   },
   {
    "slug": "post-office-limited",
@@ -903,7 +1080,10 @@
    "next_date": null,
    "new_since_assessment": 0,
    "verdict": "As at 14 October 2026, the material reviewed does not establish wrongdoing.",
-   "liability_indicators_our_reading": "none"
+   "liability_indicators_our_reading": "none",
+   "catalogue_id": "FA-0060",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0060"
   },
   {
    "slug": "royal-mail-group",
@@ -918,7 +1098,10 @@
    "next_date": null,
    "new_since_assessment": 0,
    "verdict": "As at 14 October 2026, the material reviewed does not establish wrongdoing.",
-   "liability_indicators_our_reading": "none"
+   "liability_indicators_our_reading": "none",
+   "catalogue_id": "FA-0061",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0061"
   },
   {
    "slug": "senedd-culture-committee",
@@ -933,7 +1116,10 @@
    "next_date": null,
    "new_since_assessment": 0,
    "verdict": "No historic committee responsibility is established.",
-   "liability_indicators_our_reading": "some"
+   "liability_indicators_our_reading": "some",
+   "catalogue_id": "FA-0062",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0062"
   },
   {
    "slug": "south-western-brick-and-tile",
@@ -948,7 +1134,10 @@
    "next_date": null,
    "new_since_assessment": 0,
    "verdict": "As at 14 October 2026, the material reviewed does not establish wrongdoing by the company.",
-   "liability_indicators_our_reading": "none"
+   "liability_indicators_our_reading": "none",
+   "catalogue_id": "FA-0063",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0063"
   },
   {
    "slug": "wales-and-west-housing-association",
@@ -963,7 +1152,10 @@
    "next_date": null,
    "new_since_assessment": 0,
    "verdict": "As at 14 October 2026, the material reviewed does not establish wrongdoing by the association.",
-   "liability_indicators_our_reading": "none"
+   "liability_indicators_our_reading": "none",
+   "catalogue_id": "FA-0064",
+   "version_scheme": "SemVer 2.0.0",
+   "catalogue_url": "https://bucklerfamily.estate/catalogue/?id=FA-0064"
   },
   {
    "slug": "defra",
