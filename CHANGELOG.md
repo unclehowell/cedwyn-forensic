@@ -1,4 +1,19 @@
-# Changelog — Forensic Assessments (Cedwyn webapp 39 of 59)
+# Changelog — Forensic Assessments (webapp 39 of 59)
+
+# Changelog — Forensic Assessments (webapp 39 of 59)
+
+## [1.4.0] - 2026-11-13
+### Added
+- Registered all 64 published institutional assessment pages as individual public catalogue records, with permanent identifiers FA-0001 through FA-0064.
+- Added the current SemVer 2.0.0 version and catalogue ID to the directory record for every assessed institution; each report page now displays a direct link to its catalogue record and its version.
+- Added `data/catalogue-records.json` as the dedicated webapp's registration register, including the source repository, page route, current version and publication metadata for every record.
+- Added a public catalogue record kind (`forensic_assessment`) and catalogue display support for the FA identifier series and each record's semantic version.
+- Added a site-build guard that checks every published assessment against the per-page SemVer, unique catalogue ID, dedicated-repository source and public catalogue API before site publication.
+### Corrected
+- Reconciled directory versions with the current assessment page headers: The National Archives is v1.3.0; ITV Cymru Wales is v1.2.0. The other 62 page versions were already current.
+### Preserved
+- Assessment text and institutional findings were not substantively rewritten. The 17 correspondence-only / not-yet-assessed entries remain outside the report register.
+- Forensic Assessments remains sourced from its own repository, `unclehowell/cedwyn-forensic`; no app content was written to the retired `unclehowell/cedwyn` repository.
 
 ## [1.3.0] - 2026-11-10
 ### Changed
