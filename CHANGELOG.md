@@ -1,5 +1,12 @@
 # Changelog — Forensic Assessments (webapp 39 of 59)
 
+## [1.5.0] - 2026-11-16
+### Updated
+- Updated the Cadw assessment and activity journal through the 16 November ATISN 26-0075 response, and the Welsh Government assessment through the same response.
+- Kept the 26-0010 internal review, 27589 refusal, four permanently retained later files, six Tir Gofal files on hold and the three no-information-held search categories distinct.
+- Added the 16 November archive record link; no claim that the later files concern Great House Farm or are the 1988 listing file.
+
+
 ## [1.4.1] - 2026-11-16
 ### Changed
 - Removed the duplicate 81-row priority table; the institution directory is now the single searchable, filterable and sortable list.
