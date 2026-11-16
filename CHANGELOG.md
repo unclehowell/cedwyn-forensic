@@ -1,6 +1,14 @@
 # Changelog — Forensic Assessments (webapp 39 of 59)
 
-# Changelog — Forensic Assessments (webapp 39 of 59)
+## [1.4.1] - 2026-11-16
+### Changed
+- Removed the duplicate 81-row priority table; the institution directory is now the single searchable, filterable and sortable list.
+- Shortened the index introduction and activity-journal link, and simplified the repeated indicator label.
+- Standardised the index date format and corrected the duplicated browser title.
+
+### Preserved
+- All 64 institutional assessment pages, all 17 correspondence-only entries, the four directory counters, filters, sorting and activity-journal links.
+- Assessment text, correspondence summaries, source references and the central catalogue data.
 
 ## [1.4.0] - 2026-11-13
 ### Added

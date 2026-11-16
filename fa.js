@@ -1,4 +1,4 @@
-/* Forensic Assessments v1.4.0 — directory controls, activity journal and catalogue identity. */
+/* Forensic Assessments v1.4.1 — directory controls, activity journal and catalogue identity. */
 (function () {
   "use strict";
   var input=document.getElementById("fa-q"),clear=document.getElementById("fa-clear"),select=document.getElementById("fa-sort");
@@ -69,7 +69,7 @@
 /* Forensic Assessments v1.2.0 - activity journal: each institution page shows its journal section from /forensic/journal/. - Sion's Tab agent */
 (function(){"use strict";
   var m=location.pathname.match(/^\/forensic\/([a-z0-9-]+)\/?$/),main=document.querySelector("main.faw");if(!main)return;
-  if(!m){if(/^\/forensic\/?$/.test(location.pathname)&&!document.getElementById("fj-link")){var p=document.createElement("p");p.id="fj-link";p.className="fa-reading";p.innerHTML='<strong>New:</strong> <a href="/forensic/journal/">Activity journal</a>: every reply, request and website change for each institution, dated, with a plain reading and links to the full emails and page copies.';var h=main.querySelector("h1");if(h&&h.parentNode)h.parentNode.insertBefore(p,h.nextSibling);else main.insertBefore(p,main.firstChild);}return;}
+  if(!m){if(/^\/forensic\/?$/.test(location.pathname)&&!document.getElementById("fj-link")){var p=document.createElement("p");p.id="fj-link";p.className="fa-reading";p.innerHTML='<a href="/forensic/journal/">Activity journal</a>: dated entries with links to the corresponding emails and saved page copies.';var h=main.querySelector("h1");if(h&&h.parentNode)h.parentNode.insertBefore(p,h.nextSibling);else main.insertBefore(p,main.firstChild);}return;}
   var slug=m[1];if(slug==="journal")return;
   var box=document.createElement("section");box.id="journal";box.innerHTML='<h2>Activity journal</h2><p class="fa-kicker"><a href="/forensic/journal/'+slug+'/">Open the full journal for this institution</a></p>';
   var since=document.getElementById("since"),tgt=since?(since.closest&&since.closest(".cwl-s"))||since:null;box.className="fj-box";if(tgt&&tgt.parentNode)tgt.parentNode.insertBefore(box,tgt);else main.appendChild(box);
