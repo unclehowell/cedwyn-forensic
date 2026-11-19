@@ -1,5 +1,12 @@
 # Changelog — Forensic Assessments (webapp 39 of 59)
 
+## [1.4.2] - 2026-11-19
+### Changed
+- Updated the Loosemores Solicitors / Hugh James profile with a preliminary, source-bounded review of the 1987 representation, Mark Loosemore's published career chronology, the 2023 acquisition, and the unverified historic file-custody position.
+- Reconciled the activity journal and directory status through 19 November 2026; removed direct links to private correspondence from this institution's public journal.
+- Removed the unsupported description of Hugh James / Loosemores as successors to John Loosemore & Co.; retained the separate service-company name record only as an unproven identity lead.
+- Kept the institution as a correspondence-only record pending a separately authorised central catalogue entry; no FA-series identifier was minted and no central catalogue data was changed.
+
 ## [1.4.1] - 2026-11-16
 ### Changed
 - Removed the duplicate 81-row priority table; the institution directory is now the single searchable, filterable and sortable list.
