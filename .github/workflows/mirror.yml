@@ -18,7 +18,7 @@ jobs:
         run: |
           set -euo pipefail
           curl --fail --silent --show-error \
-            "https://raw.githubusercontent.com/unclehowell/cedwyn/main/split-repos.json" \
+            "https://raw.githubusercontent.com/unclehowell/bucklerfamily-estate/main/split-repos.json" \
             -o /tmp/split-repos.json
           python3 -c 'import json,os; d=json.load(open("/tmp/split-repos.json")); xs=[x for x in d.get("apps",[]) if x.get("repo")==os.environ["EXPECTED_REPO"]]; assert len(xs)==1, "manifest entry missing or duplicated"; a=xs[0]; assert a.get("mode")=="split-repo" and a.get("deploy")=="repo", "manifest does not confirm dedicated-repo deployment"; print("Authoritative manifest confirms the dedicated repository as source of truth.")'
       - name: Confirm no legacy mirror is needed
